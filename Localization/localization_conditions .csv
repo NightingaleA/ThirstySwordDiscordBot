@@ -1,0 +1,12 @@
+localization_id,English ,Español
+command_conditions,Conditions,Condiciones
+command_angry,Angry,Enojade
+command_frightened,frightened,Asustade
+command_guilty,guilty,Culpable
+command_hopeless,hopeless,Desesperanzade
+command_insecure,insecure,Insegure
+blurb_angry,"–2 to {name_figure}. To clear, break something important to you or someone you care about","–2 a {name_figure}. Para remover, rompe algo importante para ti o alguien que te importa."
+blurb_frightened,"–2 to {name_fight}. To clear, run away and leave something important behind","–2 a {name_fight}. Para remover, run away and leave something important behind"
+blurb_guilty,"–2 to {name_support}. To clear, sacrifice something important just to hurt yourself for what you did","–2 a {name_support}. Para remover, sacrifice something important just to hurt yourself for what you did"
+blurb_hopeless,"–2 to {name_defy}. To clear, lose yourself in escapism or pleasure when you should be doing something important","–2 a {name_defy}. Para remover, lose yourself in escapism or pleasure when you should be doing something important"
+blurb_insecure,"–2 to {name_entice}. To clear, take rash action to confront the object of your jealousy and prove your worth without any plan or advice","–2 a {name_entice}. Para remover, take rash action to confront the object of your jealousy and prove your worth without any plan or advice"

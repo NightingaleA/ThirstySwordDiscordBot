@@ -1,6 +1,7 @@
 import os
 import discord
 from discord.ext import commands
+from keep_bot_alive import keep_bot_alive
 
 TOKEN = os.getenv('DISCORD_TOKEN')
 
@@ -22,4 +23,5 @@ async def on_message(message):
     if message.content.startswith('$hello'):
         await message.channel.send('Hello!')
 
+keep_bot_alive()
 bot.run(TOKEN)

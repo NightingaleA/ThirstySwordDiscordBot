@@ -1,8 +1,8 @@
 [tool.poetry]
-name = "python-template"
+name = "ThistySwordDiscordBot"
 version = "0.1.0"
-description = ""
-authors = ["Your Name <you@example.com>"]
+description = "Discord bot to play Thisty Sword Lesbians"
+authors = ["Nightingale"]
 
 [tool.poetry.dependencies]
 python = ">=3.8.0,<3.9"
@@ -11,6 +11,8 @@ replit = "^3.2.4"
 Flask = "^2.2.0"
 urllib3 = "^1.26.12"
 discord = "^2.0.0"
+google-api-python-client = "^2.62.0"
+pandas = "^1.5.0"
 
 [tool.poetry.dev-dependencies]
 debugpy = "^1.6.2"
