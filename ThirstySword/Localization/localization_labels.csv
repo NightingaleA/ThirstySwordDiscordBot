@@ -1,10 +1,5 @@
-localization_id,English ,Español
-command_labels,Labels,Etiquetas
-command_daring,Daring,Audaz
-command_grace,Grace,Gracia
-command_heart,Heart,Corazón
-command_wit,Wit,Ingenio
-command_spirit,Spirit,Espíritu
+localization_id,english,español
+title_lables,Labels,Etiquetas
 blurb_daring,"Skill at arms and forcefulness, both in terms of muscle and personality.","Habilidad en armamento y fuerza, tanto en músculo como en personalidad."
 blurb_grace,"Elegance, poise, and agility.","Elegancia, aplomo y agilidad."
 blurb_heart,Emotional awareness and expression.,Conciencia emocional y expression.

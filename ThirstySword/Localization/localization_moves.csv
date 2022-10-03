@@ -1,26 +1,15 @@
-localization_id,English ,Español
-command_basic,Basic,Básico
-command_special,Special,Especial
-command_fight,Fight,Pelea
-command_defy,Defy,Desafiar
-command_stagger,Stagger,Tambalearse
-command_entice,Entice,Atraer
-command_figure,Figure,Descifrar
-command_influence,Influence,Influencia
-command_smitten,Smitten,Enamorade
-command_kiss,Kiss,Beso
-command_support,Emotional ,Emocional
-command_call,Call,Llamado
-command_eos,EOS,FDS
+localization_id,english,español
+title_basic_moves,Basic Moves,Movimientos Básicos
 name_fight,Fight,Pelea
 name_defy,Defy Disaster,Desafiar Desastre
 name_stagger,Stagger,Tambalearse
 name_entice,Entice,Atraer
 name_figure,Figure Out A Person,Descifrar a una persona
 name_influence,Influence With A String,Influencia Con Un Hilo
-name_smitten,Smitten,Enamorade
-name_kiss,Finally Kiss In A Dangerous Situation ,Finalmente El Beso En Una Situación Peligrosa
+name_smitten,Smitten,Enamorada
+name_kiss,Finally Kiss In A Dangerous Situation ,Finalmente Nos Besamos En Una Situación Peligrosa
 name_support,Emotional Support ,Soporte Emocional
+title_special_moves,Special Moves,Movimientos Especiales
 name_call,Call On A Toxic Power,Llamado A Un Poder Tóxico
 name_eos,End Of Session,Fin De Sesión
 trigger_fight,**When you seek to incapacitate someone with violence.**,
@@ -108,28 +97,21 @@ blurb_smitten,"__(always your choice),__ say why, give them a String on you, and
 \n** ** Troubadour: Why do you think they will never be able to accept the real you?",
 blurb_kiss,"each takes +1 ongoing to get to safety and protect the other for the rest of the scene.
 If more than two people finally kiss in these circumstances, they all get the bonus. Each participant must be enthusiastic about kissing to trigger this move.",
-blurb_support,", roll +Heart or +Spirit (+3 more if you spend a String on them):
-10+:If they open up to you, they choose 1 and you either choose 1 or take
-a String on them
-7–9:If they open up to you, they choose 1
-a Clear a Condition
-a Mark XP
-a+1 forward
-a Gain insight from the GM about an obstacle facing one of you",
+blurb_support,"__roll +Heart or +Spirit__ (+3 more if you spend a String on them):
+\n**10+:**If they open up to you, they choose 1 and you either choose 1 or take a String on them.
+\m**7–9:**If they open up to you, they choose 1 a Clear a Condition a Mark XP.
+\n**•** +1 forward.
+\n**•** Gain insight from the GM about an obstacle facing one of you.",
 blurb_call,"ask it your question and __roll +Spirit:__
-10+:It answers the question and grants you +1 forward to act on the
-information
-7–9:It answers the question and the GM chooses 1
-
-a It takes something from you, either knowledge, reputation, or some-
-thing physical
-
-a You mark a Condition
-a It gains a String on you",
-blurb_eos,", each player marks XP if, during the session:
-a Any PC confessed their love
-a Any PC struck a blow against oppression or de-escalated a violent
-situation
-a Any PC leapt into danger with daring and panache
-a Any player used a safety practice such as adding to the palette or
-checking in",
+**10+:**It answers the question and grants you +1 forward to act on the information.
+**7–9:**It answers the question and the GM chooses 1.
+\n
+\n**•** It takes something from you, either knowledge, reputation, or something physical.
+\n**•** You mark a Condition.
+\n**•** It gains a String on you.",
+blurb_eos,"each player marks XP if, during the session:
+\n
+\n**•** Any PC confessed their love.
+\n**•** Any PC struck a blow against oppression or de-escalated a violent situation.
+\n**•** Any PC leapt into danger with daring and panache.
+\n**•** Any player used a safety practice such as adding to the palette or checking in.",
