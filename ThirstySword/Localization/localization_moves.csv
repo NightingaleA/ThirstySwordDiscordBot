@@ -1,0 +1,117 @@
+localization_id,english,español
+title_basic_moves,Basic Moves,Movimientos Básicos
+name_fight,Fight,Pelea
+name_defy,Defy Disaster,Desafiar Desastre
+name_stagger,Stagger,Tambalearse
+name_entice,Entice,Atraer
+name_figure,Figure Out A Person,Descifrar a una persona
+name_influence,Influence With A String,Influencia Con Un Hilo
+name_smitten,Smitten,Enamorada
+name_kiss,Finally Kiss In A Dangerous Situation ,Finalmente Nos Besamos En Una Situación Peligrosa
+name_support,Emotional Support ,Soporte Emocional
+title_special_moves,Special Moves,Movimientos Especiales
+name_call,Call On A Toxic Power,Llamado A Un Poder Tóxico
+name_eos,End Of Session,Fin De Sesión
+trigger_fight,**When you seek to incapacitate someone with violence.**,
+trigger_defy,**When you push your limits to achieve something extraordinary.**,
+trigger_stagger,**When you suffer a staggering physical or emotional blow.**,
+trigger_entice,**When you appeal to someone’s physical or emotional sensibilities.**,
+trigger_figure,**When you try to understand a person.**,
+trigger_influence,,
+trigger_smitten,**When you become Smitten with someone.**,
+trigger_kiss,**When people finally kiss after a period of tension.**,
+trigger_support,**When you offer someone support in a way that could be meaningful to them.**,
+trigger_call,**When you parley with a Toxic Power.**,
+trigger_eos,**At the end of every session.**,
+blurb_fight,"__Roll +Daring or +Grace:__
+\n**10+:**Choose 3 and your opponent chooses 1 to apply to you in response.
+\n**7–9:**Choose 2 and your opponent chooses 1.
+\n
+\n**•** Flirt with or provoke your opponent and gain a String on them.
+\n**•** Through violence or cutting words, inflict a Condition.
+\n**•** Create an opportunity for an ally through prowess or distraction.
+\n**•** Take an object from your opponent or seize a superior position.",
+blurb_defy,"__that’s not covered by another move, or to avert an imminent danger__ to yourself or
+someone else, say what you’re willing to sacrifice and pick your approach:
+\n**•** Might, endurance, or courage +Daring.
+\n**•** Swiftness or elegance +Grace.
+\n**•** Charm or social insight +Heart.
+\n**•** Cleverness or knowledge +Wit.
+\n**•** Willpower or metaphysical skill +Spirit.
+\n
+\n**10+:***Do it with style. At the GM’s discretion, you may also learn new information, discover a new opportunity, or gain a String on someone.
+\n**7–9:**The GM will offer you a hard choice or success with a sacrifice.",
+blurb_stagger,"choose an option from the following based on the number of Conditions you have marked.
+\n**4–5 Conditions:**
+\n**•** You’re rendered helpless for the scene.
+\n**•** You’re utterly humiliated and news will spread; this could be a consequence of a setback in the confrontation, or might be caused by something you confess in the heat of the moment.
+\n**•** Choose 2 from the “0–3 Conditions” options.
+\n
+\n**0–3 Conditions:**
+\n**•** You lash out at someone whose regard matters to you: provoke them to do something foolish or harmful and take advantage of a String on them if you have one.
+\n**•** You hesitate or stumble and the opposition gains an opportunity.
+\n**•** You grin and bear the blow; mark two Conditions.",
+blurb_entice,"__roll +Heart:__
+\n**10+:**Gain a String on them and they choose 1.
+\n**7–9:**Gain a String on them, unless they decide instead to choose 1.
+\n
+\n**•** Get flustered and awkward.
+\n**•** Promise something they think you want.
+\n**•** Give in to desire.",
+blurb_figure,"__roll +Wit__ (+3 more if you spend a String on them):
+\n**10+:**You may ask 2 questions, now or later in the scene
+\n**7–9:**You may ask 2 questions, but they may ask 1 of you
+\n
+\n**•** What are your feelings towards _____?
+\n**•** What do you hope to get from _____?
+\n**•** How could I get you to _____?
+\n**•** What do you love most?
+\n**•** How would you feel if I _____?",
+blurb_influence,"At any time, spend a String on someone to do one of the following:
+\n
+\n**•** Offer them an XP to do something (don’t spend the String if they refuse the temptation)
+\n**•** Find out what it will take to get them to do what you want (for an NPC, spending the String means they may simply agree).
+\n**•** Add 1 to your roll against them (after rolling).
+\n**•** Add or subtract 1 from any roll they make (after rolling).",
+blurb_smitten,"__(always your choice),__ say why, give them a String on you, and answer the question in the Truths of Heart and Blade section of your playbook:
+\n**•** Beast: What have you done that you are sure they view as inappropriate?
+\n**•** Chosen: How do our respective stations make it impossible to be together?
+\n**•** Devoted: How does pursuing them conflict with your Devotion?
+\n**•** Infamous: Why do you think they would be wrong to forgive you?
+\n**•** Nature Witch: What is a clear challenge to being with them that you’re overlooking because of your naivete?
+\n**•** Scoundrel: Why would your romance never last?
+\n**•** Seeker: Which of your values do they openly violate or decry?
+\n**•** Spooky Witch: What obvious thing about you are you sure would make them reject you?
+\n**•** Trickster: What secret do you have that you think would make them reject you if they knew?
+\n**•** Bloody: What makes being vulnerable with them difficult?
+\n**•** Dream Mirror: Why do you think you must keep up your performance to have any chance with them?
+\n**•** Ensemble:
+\nHow would pursuing them make my partner feel unloved or unneeded?
+\nWhy do they need you more than your partner does?
+\n**•** Hologoddess: How are they incompatible with your operating system?
+\n**•** Investigator: What secret or mystery about you am I irresistibly drawn in by?
+\n**•** Legion: Why are you certain that your Tragedy will make you lose them?
+\n**•** Matriarch: How could dating them negatively affect your family?
+\n**•** Naga: a What’s the worst way you fear they might break or betray your trust?
+\n**•** Sun hand: What unwise thing do you think you could do toimpress them?
+\n** ** Troubadour: Why do you think they will never be able to accept the real you?",
+blurb_kiss,"each takes +1 ongoing to get to safety and protect the other for the rest of the scene.
+If more than two people finally kiss in these circumstances, they all get the bonus. Each participant must be enthusiastic about kissing to trigger this move.",
+blurb_support,"__roll +Heart or +Spirit__ (+3 more if you spend a String on them):
+\n**10+:**If they open up to you, they choose 1 and you either choose 1 or take a String on them.
+\m**7–9:**If they open up to you, they choose 1 a Clear a Condition a Mark XP.
+\n**•** +1 forward.
+\n**•** Gain insight from the GM about an obstacle facing one of you.",
+blurb_call,"ask it your question and __roll +Spirit:__
+**10+:**It answers the question and grants you +1 forward to act on the information.
+**7–9:**It answers the question and the GM chooses 1.
+\n
+\n**•** It takes something from you, either knowledge, reputation, or something physical.
+\n**•** You mark a Condition.
+\n**•** It gains a String on you.",
+blurb_eos,"each player marks XP if, during the session:
+\n
+\n**•** Any PC confessed their love.
+\n**•** Any PC struck a blow against oppression or de-escalated a violent situation.
+\n**•** Any PC leapt into danger with daring and panache.
+\n**•** Any player used a safety practice such as adding to the palette or checking in.",
