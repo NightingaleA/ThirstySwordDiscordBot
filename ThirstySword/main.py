@@ -24,7 +24,7 @@ async def on_message(message):
 
     if message.content.startswith('$'):
         response = commands_manager.get_message_to_send(message)
-        await message.channel.send(embed =response)
+        await message.channel.send(embed=response)
 
 keep_bot_alive()
 bot.run(TOKEN)

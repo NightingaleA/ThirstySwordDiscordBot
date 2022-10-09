@@ -1,14 +1,17 @@
 from Data.commands_data import Commands
+from Data.moves_data import Moves
 from Localization.localizer import Localizer
 from enum import Enum
 
 class DataManager:
-  COMMAND_TYPE = Enum('COMMAND_TYPE', 'help_list label_list label condition_list condition basic_move_list basic_move special_move_list special_move playbook_list playbook playbook_move')
+  COMMAND_TYPE = Enum('COMMAND_TYPE', 'command_help_list command_label_list command_label command_condition_list command_condition command_basic_move_list command_basic_move command_special_move_list command_special_move command_playbook_list command_playbook playbook_move')
+  
   def __init__(self):
     self.commands = Commands()
     self.localizer = Localizer()
+    self.moves = Moves()
   
-  def set_command_language(self,message):
+  def set_language_from_command(self,message):
     for self.command in self.commands.list:     
       if(self.command.english in message):
         self.localizer.lang = self.localizer.LANGUAGES.english  

@@ -1,5 +1,7 @@
 localization_id,english,español
 title_playbooks,Playbooks,Libretos
+mirror_basic_move,name_basic_move,name_basic_move
+mirror_special_move,name_special_move,name_special_move
 name_beast,The Beast,La Bestía
 name_chosen,The Chosen,La Elegida
 name_devoted,The Devoted,La Debota

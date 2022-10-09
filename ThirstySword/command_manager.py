@@ -6,12 +6,17 @@ class CommandsManager:
    
  
   def get_message_to_send(self, message):
-    self.is_command = self.data_manager.set_command_language(message.content)
-    if(self.is_command):
-      self.type = self.data_manager.get_command_type(message.content)
+    is_command = self.data_manager.set_language_from_command(message.content)
+    if(is_command):
+      type = self.data_manager.get_command_type(message.content)
 
-      if(self.type == self.data_manager.COMMAND_TYPE.help_list.name):
-        response = self.data_manager.commands.get_list(self.data_manager.localizer.lang,message)
+      if(type == self.data_manager.COMMAND_TYPE.command_help_list.name):
+        response = self.data_manager.commands.get_list(self.data_manager.localizer,message)
         return response
-        
-      return self.type
+
+      if(type == self.data_manager.COMMAND_TYPE.command_basic_move_list.name):
+        response = self.data_manager.moves.get_list(self.data_manager.COMMAND_TYPE.command_basic_move,self.data_manager,message)
+        return response
+
+      embed=discord.Embed(title=type, color=0xFF5733)
+      return embed
