@@ -2,7 +2,7 @@ import pandas as pd
 import discord
 from collections import namedtuple
 
-command_tructure = namedtuple('command', ['id', 'english', 'español', 'type'])
+command_structure = namedtuple('command', ['id', 'english', 'español', 'type'])
 
 
 class Commands:
@@ -19,11 +19,11 @@ class Commands:
 
     for id, element in self.dictionary.items():
       self.list.append(
-        command_tructure(id, element['english'], element['español'],
+        command_structure(id, element['english'], element['español'],
                          element['type']))
 
-  def get_list(self, lang, message):
-    commands = self._commandsDataframe[lang.name]
+  def get_list(self, localizer, message):
+    commands = self._commandsDataframe[localizer.lang.name]
     commands_list = commands.tolist()
 
     response = ''
