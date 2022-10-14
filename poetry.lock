@@ -341,7 +341,7 @@ optional = false
 python-versions = ">=3.7"
 
 [package.dependencies]
-packaging = ">=21.3"
+packaging = ">=21.0"
 tomli = {version = ">=2.0", markers = "python_version < \"3.11\""}
 
 [package.extras]
