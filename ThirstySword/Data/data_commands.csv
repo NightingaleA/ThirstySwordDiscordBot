@@ -1,46 +1,47 @@
-localization_id,english,español,type
-command_help,help,ayuda,command_help_list
-command_labels,labels,etiquetas,command_label_list
-command_daring,daring,audaz,command_label
-command_grace,grace,gracia,command_label
-command_heart,heart,corazón,command_label
-command_wit,wit,ingenio,command_label
-command_spirit,spirit,espíritu,command_label
-command_conditions,conditions,condiciones,command_condition_list
-command_angry,angry,enojada,command_condition
-command_frightened,frightened,asustada,command_condition
-command_guilty,guilty,culpable,command_condition
-command_hopeless,hopeless,desesperanzada,command_condition
-command_insecure,insecure,insegura,command_condition
-command_fight,fight,pelea,command_basic_move
-command_defy,defy,desafiar,command_basic_move
-command_stagger,stagger,tambalearse,command_basic_move
-command_entice,entice,atraer,command_basic_move
-command_figure,figure,descifrar,command_basic_move
-command_influence,influence,influencia,command_basic_move
-command_smitten,smitten,enamorada,command_basic_move
-command_kiss,kiss,beso,command_basic_move
-command_support,support,soporte,command_basic_move
-command_call,call,llamado,command_special_move
-command_eos,eos,fds,command_special_move_list
-command_basic,basic,básico,command_basic_move_list
-command_special,special,especial,command_special_move_list
-command_beast,beast,bestia,command_playbook
-command_chosen,chosen,elegida,command_playbook
-command_devoted,devoted,devota,command_playbook
-command_infamous,infamous,infame,command_playbook
-command_nature,nature,naturaleza,command_playbook
-command_scoundrel,scoundrel,pícara,command_playbook
-command_seeker,seeker,buscadora,command_playbook
-command_spooky,spooky,aterrador,command_playbook
-command_trickster,trickster,embustera,command_playbook
-command_bloody,bloody,sangrienta,command_playbook
-command_dream,dream,sueños,command_playbook
-command_ensemble,ensemble,pareja,command_playbook
-command_hologodess,hologodess,holodiosa,command_playbook
-command_investigator,investigator,investigadora,command_playbook
-command_legion,legion,legión,command_playbook
-command_matriarch,matriarch,matriarca,command_playbook
-command_naga,naga,naga,command_playbook
-command_sun,sun,sol,command_playbook
-command_troubadour,troubadour,trobador,command_playbook
+localization_id,english,español,type,status
+command_help,help,ayuda,command_help_list,added
+command_labels,labels,etiquetas,command_label_list,WIP
+command_daring,daring,audaz,command_label,wait list
+command_grace,grace,gracia,command_label,wait list
+command_heart,heart,corazón,command_label,wait list
+command_wit,wit,ingenio,command_label,wait list
+command_spirit,spirit,espíritu,command_label,wait list
+command_conditions,conditions,condiciones,command_condition_list,WIP
+command_angry,angry,enojada,command_condition,wait list
+command_frightened,frightened,asustada,command_condition,wait list
+command_guilty,guilty,culpable,command_condition,wait list
+command_hopeless,hopeless,desesperanzada,command_condition,wait list
+command_insecure,insecure,insegura,command_condition,wait list
+command_basic,basic,básico,command_basic_move_list,added
+command_fight,fight,pelea,command_basic_move,wait list
+command_defy,defy,desafiar,command_basic_move,wait list
+command_stagger,stagger,tambalearse,command_basic_move,wait list
+command_entice,entice,atraer,command_basic_move,wait list
+command_figure,figure,descifrar,command_basic_move,wait list
+command_influence,influence,influencia,command_basic_move,wait list
+command_smitten,smitten,enamorada,command_basic_move,wait list
+command_kiss,kiss,beso,command_basic_move,wait list
+command_support,support,soporte,command_basic_move,wait list
+command_special,special,especial,command_special_move_list,WIP
+command_call,call,llamado,command_special_move,wait list
+command_eos,eos,fds,command_special_move,wait list
+command_playbooks,playbooks,libretos,command_playbook_list,WIP
+command_beast,beast,bestia,command_playbook,wait list
+command_chosen,chosen,elegida,command_playbook,wait list
+command_devoted,devoted,devota,command_playbook,wait list
+command_infamous,infamous,infame,command_playbook,wait list
+command_nature,nature,naturaleza,command_playbook,wait list
+command_scoundrel,scoundrel,pícara,command_playbook,wait list
+command_seeker,seeker,buscadora,command_playbook,wait list
+command_spooky,spooky,aterrador,command_playbook,wait list
+command_trickster,trickster,embustera,command_playbook,wait list
+command_bloody,bloody,sangrienta,command_playbook,wait list
+command_dream,dream,sueños,command_playbook,wait list
+command_ensemble,ensemble,pareja,command_playbook,wait list
+command_hologodess,hologodess,holodiosa,command_playbook,wait list
+command_investigator,investigator,investigadora,command_playbook,wait list
+command_legion,legion,legión,command_playbook,wait list
+command_matriarch,matriarch,matriarca,command_playbook,wait list
+command_naga,naga,naga,command_playbook,wait list
+command_sun,sun,sol,command_playbook,wait list
+command_troubadour,troubadour,trobador,command_playbook,wait list

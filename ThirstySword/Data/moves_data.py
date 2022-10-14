@@ -24,18 +24,20 @@ class Moves:
                          element['type']))
 
   def get_list(self,command_type, data_manager, message):
-    print(self._movesDataframe)
-    moves = (self._movesDataframe["type"] == command_type.name)
-    print(moves.head())
-    moves_list = moves.tolist()
+    moves = (self._movesDataframe[self._movesDataframe["type"] == command_type.name] )
+    moves_list = moves["command"].tolist()
     print(moves_list)
     response = ''
     embed = discord.Embed(title=data_manager.localizer.get_move_with_key('title_basic_moves'), colour=5450873)
     author = message.author
     embed.set_author(name=author.display_name)
     embed.set_thumbnail(url=author.avatar)
+    index = 0
     for command in moves_list:
-      cmd = ("**{}**\n").format(command)
+      if(index>0):
+        response = response + ", "
+      index +=1
+      cmd = ("**{}**").format(data_manager.commands.get_command(data_manager.localizer,command))
       response = response + cmd
 
     embed.add_field(name='**—————————**', value=response)
