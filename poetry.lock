@@ -239,7 +239,7 @@ python-versions = ">=3.8"
 
 [[package]]
 name = "packaging"
-version = "21.3"
+version = "21.0"
 description = "Core utilities for Python packages"
 category = "dev"
 optional = false
@@ -287,14 +287,6 @@ python-versions = ">=3.6"
 [package.extras]
 testing = ["pytest-benchmark", "pytest"]
 dev = ["tox", "pre-commit"]
-
-[[package]]
-name = "polyglot"
-version = "16.7.4"
-description = "Polyglot is a natural language pipeline that supports massive multilingual applications."
-category = "main"
-optional = false
-python-versions = "*"
 
 [[package]]
 name = "pyflakes"
@@ -557,7 +549,7 @@ testing = ["pytest (>=6)", "pytest-checkdocs (>=2.4)", "pytest-flake8", "pytest-
 [metadata]
 lock-version = "1.1"
 python-versions = ">=3.8.0,<3.9"
-content-hash = "1dcc8d9cb4534fed70b11b7dc6ed6d56f1820975ccd006a2796a6c5d8f972e72"
+content-hash = "1c82341687254e6524d78e34b36be87d1c2be3bdd0612dc2ce819e8ca5324817"
 
 [metadata.files]
 aiohttp = []
@@ -585,7 +577,6 @@ packaging = []
 pandas = []
 parso = []
 pluggy = []
-polyglot = []
 pyflakes = []
 pyparsing = []
 python-dateutil = []
