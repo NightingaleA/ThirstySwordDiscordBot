@@ -11,11 +11,49 @@ class CommandsManager:
       type = self.data_manager.get_command_type(message.content)
 
       if(type == self.data_manager.COMMAND_TYPE.command_help_list.name):
-        response = self.data_manager.commands.get_full_list(self.data_manager.localizer,message)
+        commands_to_include = []
+        commands_to_include.append(self.data_manager.COMMAND_TYPE.command_help_list.name)
+        commands_to_include.append(self.data_manager.COMMAND_TYPE.command_label_list.name)
+        commands_to_include.append(self.data_manager.COMMAND_TYPE.command_condition_list.name)
+        commands_to_include.append(self.data_manager.COMMAND_TYPE.command_basic_move_list.name)
+        commands_to_include.append(self.data_manager.COMMAND_TYPE.command_special_move_list.name)
+        commands_to_include.append(self.data_manager.COMMAND_TYPE.command_playbook_list.name)
+        
+        response = self.data_manager.commands.get_command_list(self.data_manager.localizer,message, commands_to_include)
+        return response
+
+      if(type == self.data_manager.COMMAND_TYPE.command_label_list.name):
+        commands_to_include = []
+        commands_to_include.append(self.data_manager.COMMAND_TYPE.command_label_list.name)
+        
+        response = self.data_manager.commands.get_command_list(self.data_manager.localizer,message, commands_to_include)
+        return response
+        
+      if(type == self.data_manager.COMMAND_TYPE.command_condition_list.name):
+        commands_to_include = []
+        commands_to_include.append(self.data_manager.COMMAND_TYPE.command_condition_list.name)
+        
+        response = self.data_manager.commands.get_command_list(self.data_manager.localizer,message, commands_to_include)
         return response
 
       if(type == self.data_manager.COMMAND_TYPE.command_basic_move_list.name):
-        response = self.data_manager.moves.get_list(self.data_manager.COMMAND_TYPE.command_basic_move,self.data_manager,message)
+        commands_to_include = []
+        commands_to_include.append(self.data_manager.COMMAND_TYPE.command_basic_move_list.name)
+        response = self.data_manager.commands.get_command_list(self.data_manager.localizer,message, commands_to_include)
+        return response
+
+      if(type == self.data_manager.COMMAND_TYPE.command_special_move_list.name):
+        commands_to_include = []
+        commands_to_include.append(self.data_manager.COMMAND_TYPE.command_special_move_list.name)
+        
+        response = self.data_manager.commands.get_command_list(self.data_manager.localizer,message, commands_to_include)
+        return response
+
+      if(type == self.data_manager.COMMAND_TYPE.command_playbook_list.name):
+        commands_to_include = []
+        commands_to_include.append(self.data_manager.COMMAND_TYPE.command_playbook_list.name)
+        
+        response = self.data_manager.commands.get_command_list(self.data_manager.localizer,message, commands_to_include)
         return response
 
       embed=discord.Embed(title=type, color=0xFF5733)
