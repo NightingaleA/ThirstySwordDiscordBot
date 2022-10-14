@@ -42,8 +42,6 @@ pexpect==4.8.0
 pkginfo==1.8.3
 platformdirs==2.5.2
 pluggy @ https://files.pythonhosted.org/packages/9e/01/f38e2ff29715251cf25532b9082a1589ab7e4f571ced434f98d0139336dc/pluggy-1.0.0-py2.py3-none-any.whl#sha256=74134bbf457f031a36d68416e1509f34bd5ccc019f0bcc952c7b909d06b37bd3
-poetry==1.2.2
-poetry-core==1.3.2
 ptyprocess==0.7.0
 pycld2==0.41
 pycparser==2.21
