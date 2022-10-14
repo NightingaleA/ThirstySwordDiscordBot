@@ -42,8 +42,6 @@ pexpect==4.8.0
 pkginfo==1.8.3
 platformdirs==2.5.2
 pluggy @ https://files.pythonhosted.org/packages/9e/01/f38e2ff29715251cf25532b9082a1589ab7e4f571ced434f98d0139336dc/pluggy-1.0.0-py2.py3-none-any.whl#sha256=74134bbf457f031a36d68416e1509f34bd5ccc019f0bcc952c7b909d06b37bd3
-poetry==1.1.14
-poetry-core==1.0.8
 ptyprocess==0.7.0
 pycld2==0.41
 pycparser==2.21
@@ -52,7 +50,7 @@ pylev==1.4.0
 pyparsing @ https://files.pythonhosted.org/packages/6c/10/a7d0fa5baea8fe7b50f448ab742f26f52b80bfca85ac2be9d35cdd9a3246/pyparsing-3.0.9-py3-none-any.whl#sha256=5026bae9a10eeaefb61dab2f09052b9f4307d44aee4eda64b309723d8d206bbc
 python-dateutil @ https://files.pythonhosted.org/packages/36/7a/87837f39d0296e723bb9b62bbb257d0355c7f6128853c78955f57342a56d/python_dateutil-2.8.2-py2.py3-none-any.whl#sha256=961d03dc3453ebbc59dbdea9e4e11c5651520a876d0f4db161e8674aae935da9
 python-lsp-jsonrpc @ https://files.pythonhosted.org/packages/06/ee/754bfd5f6bfe7162c10d3ecb0aeef6f882f91d3231596c83f761a75efd0b/python_lsp_jsonrpc-1.0.0-py3-none-any.whl#sha256=079b143be64b0a378bdb21dff5e28a8c1393fe7e8a654ef068322d754e545fc7
-pytoolconfig @ https://files.pythonhosted.org/packages/c5/fb/e8edbaea7e89dcdf739b9e28a8954ed8c2714796faca18ec5c9c6be1eb9b/pytoolconfig-1.1.2-py3-none-any.whl#sha256=a9b8f6ab11e2451ff444b50bc860cee56cc775cf3e103dfcfd16a256b3f8f09e
+pytoolconfig @ https://files.pythonhosted.org/packages/26/15/e21a7c063c29c0b782be090df589b25fdc62ea3b5e5687a94a217851944e/pytoolconfig-1.2.2-py3-none-any.whl#sha256=825d97b052e58b609c2684b04efeb543075588d33a4916a6dc2ae39676458c7d
 pytz @ https://files.pythonhosted.org/packages/d5/50/54451e88e3da4616286029a3a17fc377de817f66a0f50e1faaee90161724/pytz-2022.2.1-py2.py3-none-any.whl#sha256=220f481bdafa09c3955dfbdddb7b57780e9a94f5127e35456a48589b9e0c0197
 replit @ https://files.pythonhosted.org/packages/bc/c7/6937037f3152a26917c80eadd4729a63175afe89241e43451d8588bdb130/replit-3.2.4-py3-none-any.whl#sha256=4fa5895e1e090ba23c179641bc88ab0486d1bea696515aa3147fce55733e29e1
 replit-python-lsp-server @ https://files.pythonhosted.org/packages/09/42/44ff903505cefa2b2d06fcc164ddff74510eece259e30da6a0c2c68976c8/replit_python_lsp_server-1.15.9-py3-none-any.whl#sha256=205faf150008be7d3da2ac16fc178c833d22835e24841cb82b666443a6b28bef
