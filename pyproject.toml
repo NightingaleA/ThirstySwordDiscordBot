@@ -12,7 +12,6 @@ Flask = "^2.2.0"
 urllib3 = "^1.26.12"
 discord = "^2.0.0"
 pandas = "^1.5.0"
-polyglot = "^16.7.4"
 wheel = "^0.37.1"
 toml = "^0.10.2"
 
