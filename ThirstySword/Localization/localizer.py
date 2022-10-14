@@ -1,64 +1,75 @@
 import pandas as pd
 from enum import Enum
-from collections import namedtuple
 
 class Localizer:
   LANGUAGES = Enum('LAGUAGES', 'none english español')
-  localization_structure = namedtuple('localization_key', ['id', 'english', 'español'])
-  
   def __init__(self):
     self.lang  = self.LANGUAGES.english
-    self.__load_condtions__
-    self.__load_labels__
-    self.__load_moves__
-    self.__load_playbooks__
+    self.__load_condtions__()
+    self.__load_labels__()
+    self.__load_moves__()
+    self.__load_playbooks__()
+    self.__load_utils__()
 
   def __load_condtions__(self):
-    self._conditionsDataframe = pd.read_csv(
-      "ThirstySword/Data/localization_conditions.csv")
-    self._conditionsDataframe.set_index("localization_id",
+    self._condition_dataframe = pd.read_csv(
+      "ThirstySword/Localization/localization_conditions.csv")
+    self._condition_dataframe.set_index("localization_id",
                                       drop=True,
                                       inplace=True)
 
-    self.dictionary = self._conditionsDataframe.to_dict(orient="index")
+    self.dictionary_conditions = self._condition_dataframe.to_dict(orient="index")
 
   def __load_labels__(self):
-    self._labelsDataframe = pd.read_csv(
-      "ThirstySword/Data/localization_labels.csv")
-    self._labelsDataframe.set_index("localization_id",
+    self._labels_dataframe = pd.read_csv(
+      "ThirstySword/Localization/localization_labels.csv")
+    self._labels_dataframe.set_index("localization_id",
                                       drop=True,
                                       inplace=True)
 
-    self.dictionary = self._labelsDataframe.to_dict(orient="index")
+    self.dictionary_labels = self._labels_dataframe.to_dict(orient="index")
 
   def __load_moves__(self):
-    self._movesDataframe = pd.read_csv(
-      "ThirstySword/Data/localization_moves.csv")
-    self._movesDataframe.set_index("localization_id",
+    self._moves_dataframe = pd.read_csv(
+      "ThirstySword/Localization/localization_moves.csv")
+    self._moves_dataframe.set_index("localization_id",
                                       drop=True,
                                       inplace=True)
 
-    self.dictionary = self._movesDataframe.to_dict(orient="index")
+    self.dictionary_moves = self._moves_dataframe.to_dict(orient="index")
 
   def __load_playbooks__(self):
-    self._playbooksDataframe = pd.read_csv(
-      "ThirstySword/Data/localization_playbooks.csv")
-    self._playbooksDataframe.set_index("localization_id",
+    self._playbooks_dataframe = pd.read_csv(
+      "ThirstySword/Localization/localization_playbooks.csv")
+    self._playbooks_dataframe.set_index("localization_id",
                                       drop=True,
                                       inplace=True)
 
-    self.dictionary = self._playbooksDataframe.to_dict(orient="index")
+    self.dictionary_playbooks = self._playbooks_dataframe.to_dict(orient="index")
+
+  def __load_utils__(self):
+    self._utils_dataframe = pd.read_csv(
+      "ThirstySword/Localization/localization_utils.csv")
+    self._utils_dataframe.set_index("localization_id",
+                                      drop=True,
+                                      inplace=True)
+
+    self.dictionary_utils = self._utils_dataframe.to_dict(orient="index")
+
 
   def get_conditon_with_key(self, key):
-    return self.__conditionsDataframe[self.lang][key]
+    return self.dictionary_conditions[key][self.lang.name]
   
   def get_label_with_key(self, key):
-    return self._labelsDataframe[self.lang][key]
+    return self.dictionary_labels[key][self.lang.name]
 
   def get_move_with_key(self, key):
-    return self._movesDataframe[self.lang][key]
+    return self.dictionary_moves[key][self.lang.name]
 
   def get_playbook_with_key(self, key):
-    return self._playbooksDataframe[self.lang][key]
+    return self.dictionary_playbooks[key][self.lang.name]
+
+  def get_utils_with_key(self, key):
+    return self.dictionary_utils[key][self.lang.name]
 
    

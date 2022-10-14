@@ -11,7 +11,7 @@ class CommandsManager:
       type = self.data_manager.get_command_type(message.content)
 
       if(type == self.data_manager.COMMAND_TYPE.command_help_list.name):
-        response = self.data_manager.commands.get_list(self.data_manager.localizer,message)
+        response = self.data_manager.commands.get_full_list(self.data_manager.localizer,message)
         return response
 
       if(type == self.data_manager.COMMAND_TYPE.command_basic_move_list.name):
@@ -19,4 +19,5 @@ class CommandsManager:
         return response
 
       embed=discord.Embed(title=type, color=0xFF5733)
+      embed.add_field(name='**—————————**', value=self.data_manager.localizer.get_utils_with_key("missing_command"))
       return embed
