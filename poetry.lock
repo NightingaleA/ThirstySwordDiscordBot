@@ -239,7 +239,7 @@ python-versions = ">=3.8"
 
 [[package]]
 name = "packaging"
-version = "21.0"
+version = "20.4"
 description = "Core utilities for Python packages"
 category = "dev"
 optional = false
@@ -341,7 +341,7 @@ optional = false
 python-versions = ">=3.7"
 
 [package.dependencies]
-packaging = ">=21.0"
+packaging = ">=20.4"
 tomli = {version = ">=2.0", markers = "python_version < \"3.11\""}
 
 [package.extras]
