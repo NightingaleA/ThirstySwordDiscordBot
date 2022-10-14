@@ -334,7 +334,7 @@ test = ["coverage", "pytest-cov", "pytest", "pyflakes", "pycodestyle", "pylint"]
 
 [[package]]
 name = "pytoolconfig"
-version = "1.2.2"
+version = "1.2.1"
 description = "Python tool configuration"
 category = "dev"
 optional = false
