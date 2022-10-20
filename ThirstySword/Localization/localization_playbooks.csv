@@ -2,22 +2,92 @@ localization_id,english,español
 title_playbooks,Playbooks,Libretos
 mirror_basic_move,name_basic_move,name_basic_move
 mirror_special_move,name_special_move,name_special_move
-name_beast,The Beast,La Bestía
+name_beast,The Beast,La Bestia
 name_chosen,The Chosen,La Elegida
-name_devoted,The Devoted,La Debota
+name_devoted,The Devoted,La Devota
 name_infamous,The Infamous,La Infame
 name_nature,The Nature Witch,La Bruja de Naturaleza
 name_scoundrel,The Scoundrel,La Pícara
 name_seeker,The Seeker,La Buscadora
-name_spooky,The Spooky,La Bruja de Aterradora
+name_spooky,The Spooky,La Bruja Aterradora
 name_trickster,The Trickster,La Tramposa
 name_bloody,The Bloody,La Sangrienta
 name_dream,The Dream Mirror,La Espejo de los Sueños
 name_ensemble,The Ensemble,La Pareja
 name_hologodess,The Hologodess,La Holodiosa
 name_investigator,The Investigator,La Investigadora
-name_legion,The Legion,La Legion
+name_legion,The Legion,La Legión
 name_matriarch,The Matriarch,La Matriarca
 name_naga,The Naga,La Naga
-name_sun,The Sun Hand,La Mano de Sol
-name_troubadour,The Troubadour,La Trobadora
+name_sun,The Sun Hand,La Rayito de Sol
+name_troubadour,The Troubadour,La Trovadora
+blurb_beast,"The Beast follows their truth and their passions, which puts them in conflict with civilization and civilized norms. Unless they give up what makes them special and powerful, they cannot make themself acceptable to that civilized society.
+
+Their central conflict is living their truth versus fitting in with a dominant social order.",
+blurb_chosen,,
+blurb_devoted,,
+blurb_infamous,,
+blurb_nature,,
+blurb_scoundrel,"The Scoundrel is a hero of action and intense physicality. Their sword fights are punctuated by banter and flirtation and end in kisses as often as they end in bloodshed.
+
+Their central conflict lies in their urge to explore new horizons versus committing to purpose or security.",
+blurb_seeker,,
+blurb_spooky,"The Spooky Witch is a weirdo who does their own thing while craving connection. They’ve found that many monsters are quite friendly if you give them a chance, but befriending them brands you a monster, as well.
+
+Their central conflict lies in navigating pressures to conform versus their own desires or those of their monstrous friends.",
+blurb_trickster,,
+blurb_bloody,,
+blurb_dream,,
+blurb_ensemble,,
+blurb_hologodess,,
+blurb_investigator,,
+blurb_legion,,
+blurb_matriarch,,
+blurb_naga,,
+blurb_sun,"The Sun Hand uses baking magic to support friends, empower themself, and defuse bad situations. They try to impress others with an obsessive hoarding of skills and knowledge. 
+
+Their central conflict lies in balancing their obsession with healthy relationships.",
+blurb_troubadour,,
+truths_beast,"**Truths of Heart and Blade**
+__Smitten Kitten:__ When you become **Smitten** with someone, say why, give them a String, and answer this question:
+ **•**What have you done that you are sure they view as inappropriate?
+
+The Bloody Truth: When you **Figure Out a Person** in physical conflict, you may additionally ask one of these questions, even on a 6-:
+ **•**What awakens the beast inside you?
+ **•**How could I get you to kiss me?",
+truths_chosen,,
+truths_devoted,,
+truths_infamous,,
+truths_nature,,
+truths_scoundrel,"**Truths of Heart and Blade**
+__To Love and Lose:__ When you become **Smitten** with someone, say why, give them a String, and answer this question:
+ **•**Why would your romance never last?
+
+__Repartée:__ When you **Figure Out a Person** during a physical conflict, you may additionally ask one of these questions, even on a 6-:
+**•**What would make you run away with me?
+**•**Where did you learn to fight?",
+truths_seeker,,
+truths_spooky,"Truths of Heart and Blade
+__Why Did I Bring up the Snails?:__ When you become **Smitten** with someone, say why, give them a String, and answer this question:
+**•**What obvious thing about you are you sure would make them reject you?
+
+__Whispered Secrets:__ When you **Figure Out a Person** during a physical conflict, you may additionally ask one of these questions, even on a 6-:
+**•**What makes you insecure?
+**•**What haunts you?",
+truths_trickster,,
+truths_bloody,,
+truths_dream,,
+truths_ensemble,,
+truths_hologodess,,
+truths_investigator,,
+truths_legion,,
+truths_matriarch,,
+truths_naga,,
+truths_sun,"**Truths of Heart and Blade**
+__Self-Destructing Courtship:__ When you become Smitten with someone, say why, give them a String, and answer this question:
+**•**What unwise thing do you think you could do to impress them?
+
+__Vulnerability Mirror:__ When you Figure Out a Person during a physical conflict, you may ask one additional question from this list, even on a 6-:
+**•**What’s something you recently lied about?
+**•**Who do you wish were here right now?",
+truths_troubadour,,

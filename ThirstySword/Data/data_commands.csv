@@ -3,45 +3,196 @@ command_help,help,ayuda,command_help_list,added
 command_labels,labels,etiquetas,command_label_list,added
 command_daring,daring,audaz,command_label,wait_list
 command_grace,grace,gracia,command_label,wait_list
-command_heart,heart,corazón,command_label,wait_list
+command_heart,heart,corazon,command_label,wait_list
 command_wit,wit,ingenio,command_label,wait_list
-command_spirit,spirit,espíritu,command_label,wait_list
+command_spirit,spirit,espiritu,command_label,wait_list
 command_conditions,conditions,condiciones,command_condition_list,added
 command_angry,angry,enojada,command_condition,wait_list
 command_frightened,frightened,asustada,command_condition,wait_list
 command_guilty,guilty,culpable,command_condition,wait_list
 command_hopeless,hopeless,desesperanzada,command_condition,wait_list
 command_insecure,insecure,insegura,command_condition,wait_list
-command_basic,basic,básico,command_basic_move_list,added
-command_fight,fight,pelea,command_basic_move,wait_list
-command_defy,defy,desafiar,command_basic_move,wait_list
-command_stagger,stagger,tambalearse,command_basic_move,wait_list
-command_entice,entice,atraer,command_basic_move,wait_list
-command_figure,figure,descifrar,command_basic_move,wait_list
-command_influence,influence,influencia,command_basic_move,wait_list
-command_smitten,smitten,enamorada,command_basic_move,wait_list
-command_kiss,kiss,beso,command_basic_move,wait_list
-command_support,support,soporte,command_basic_move,wait_list
+command_basic,basic,basico,command_basic_move_list,added
+command_fight,fight,pelea,command_basic_move,added
+command_defy,defy,desafiar,command_basic_move,added
+command_stagger,stagger,tambalearse,command_basic_move,added
+command_entice,entice,atraer,command_basic_move,added
+command_figure,figure,descifrar,command_basic_move,added
+command_influence,influence,influencia,command_basic_move,added
+command_smitten,smitten,enamorada,command_basic_move,added
+command_kiss,kiss,beso,command_basic_move,added
+command_support,support,soporte,command_basic_move,added
 command_special,special,especial,command_special_move_list,added
-command_call,call,llamado,command_special_move,wait_list
-command_eos,eos,fds,command_special_move,wait_list
+command_call,call,llamado,command_special_move,added
+command_eos,eos,fds,command_special_move,added
 command_playbooks,playbooks,libretos,command_playbook_list,added
 command_beast,beast,bestia,command_playbook,wait_list
 command_chosen,chosen,elegida,command_playbook,wait_list
 command_devoted,devoted,devota,command_playbook,wait_list
 command_infamous,infamous,infame,command_playbook,wait_list
 command_nature,nature,naturaleza,command_playbook,wait_list
-command_scoundrel,scoundrel,pícara,command_playbook,wait_list
+command_scoundrel,scoundrel,picara,command_playbook,wait_list
 command_seeker,seeker,buscadora,command_playbook,wait_list
-command_spooky,spooky,aterrador,command_playbook,wait_list
+command_spooky,spooky,aterradora,command_playbook,wait_list
 command_trickster,trickster,embustera,command_playbook,wait_list
 command_bloody,bloody,sangrienta,command_playbook,wait_list
 command_dream,dream,sueños,command_playbook,wait_list
 command_ensemble,ensemble,pareja,command_playbook,wait_list
 command_hologodess,hologodess,holodiosa,command_playbook,wait_list
 command_investigator,investigator,investigadora,command_playbook,wait_list
-command_legion,legion,legión,command_playbook,wait_list
+command_legion,legion,legion,command_playbook,wait_list
 command_matriarch,matriarch,matriarca,command_playbook,wait_list
 command_naga,naga,naga,command_playbook,wait_list
 command_sun,sun,sol,command_playbook,wait_list
 command_troubadour,troubadour,trobador,command_playbook,wait_list
+command_beast_feral,feral,,command_playbook_move,added
+command_beast_transform,transform,,command_playbook_move,added
+command_beast_dyke,dyke,,command_playbook_move,WIP
+command_beast_ferocious,ferocious,,command_playbook_move,WIP
+command_beast_shameless,shamless,,command_playbook_move,WIP
+command_beast_tenacious,tenacious,,command_playbook_move,WIP
+command_beast_tracker,tracker,,command_playbook_move,WIP
+command_chosen_1,,,command_playbook_move,wait_list
+command_chosen_2,,,command_playbook_move,wait_list
+command_chosen_3,,,command_playbook_move,wait_list
+command_chosen_4,,,command_playbook_move,wait_list
+command_chosen_5,,,command_playbook_move,wait_list
+command_chosen_6,,,command_playbook_move,wait_list
+command_chosen_7,,,command_playbook_move,wait_list
+command_chosen_8,,,command_playbook_move,wait_list
+command_devoted_1,,,command_playbook_move,wait_list
+command_devoted_2,,,command_playbook_move,wait_list
+command_devoted_3,,,command_playbook_move,wait_list
+command_devoted_4,,,command_playbook_move,wait_list
+command_devoted_5,,,command_playbook_move,wait_list
+command_devoted_6,,,command_playbook_move,wait_list
+command_devoted_7,,,command_playbook_move,wait_list
+command_devoted_8,,,command_playbook_move,wait_list
+command_devoted_9,,,command_playbook_move,wait_list
+command_devoted_10,,,command_playbook_move,wait_list
+command_infamous_1,,,command_playbook_move,wait_list
+command_infamous_2 ,,,command_playbook_move,wait_list
+command_infamous_3 ,,,command_playbook_move,wait_list
+command_infamous_4 ,,,command_playbook_move,wait_list
+command_infamous_5 ,,,command_playbook_move,wait_list
+command_infamous_6 ,,,command_playbook_move,wait_list
+command_infamous_7 ,,,command_playbook_move,wait_list
+command_infamous_8 ,,,command_playbook_move,wait_list
+command_infamous_9 ,,,command_playbook_move,wait_list
+command_nature_1 ,,,command_playbook_move,wait_list
+command_nature_2 ,,,command_playbook_move,wait_list
+command_nature_3 ,,,command_playbook_move,wait_list
+command_nature_4 ,,,command_playbook_move,wait_list
+command_nature_5 ,,,command_playbook_move,wait_list
+command_nature_6 ,,,command_playbook_move,wait_list
+command_nature_7 ,,,command_playbook_move,wait_list
+command_scoundrel_moment,moment,,command_playbook_move,added
+command_scoundrel_heat,heat,,command_playbook_move,added
+command_scoundrel_lust,lust,,command_playbook_move,WIP
+command_scoundrel_shiny,shiny,,command_playbook_move,WIP
+command_scoundrel_forgive,forgive,,command_playbook_move,WIP
+command_scoundrel_rush,rush,,command_playbook_move,WIP
+command_scoundrel_swordplay,swrodplay,,command_playbook_move,WIP
+command_scoundrel_attraction,attraction,,command_playbook_move,WIP
+command_scoundrel_port,port,,command_playbook_move,WIP
+command_scoundrel_rrip,rrip,,command_playbook_move,WIP
+command_seeker_1 ,,,command_playbook_move,wait_list
+command_seeker_2 ,,,command_playbook_move,wait_list
+command_seeker_3 ,,,command_playbook_move,wait_list
+command_seeker_4 ,,,command_playbook_move,wait_list
+command_seeker_5 ,,,command_playbook_move,wait_list
+command_seeker_6 ,,,command_playbook_move,wait_list
+command_seeker_7 ,,,command_playbook_move,wait_list
+command_seeker_8 ,,,command_playbook_move,wait_list
+command_seeker_9 ,,,command_playbook_move,wait_list
+command_spooky_unseen,unseem,,command_playbook_move,added
+command_spooky_commune,commune,,command_playbook_move,added
+command_spooky_snails,snails,,command_playbook_move,added
+command_spooky_dance,dance,,command_playbook_move,added
+command_spooky_divination,diviniation,,command_playbook_move,added
+command_spooky_dream,dream,,command_playbook_move,added
+command_spooky_companion,companion,,command_playbook_move,added
+command_spooky_places,places ,,command_playbook_move,added
+command_spooky_nerdy,nerdy,,command_playbook_move,added
+command_spooky_witch,witch,,command_playbook_move,added
+command_trickster_1 ,,,command_playbook_move,wait_list
+command_trickster_2 ,,,command_playbook_move,wait_list
+command_trickster_3 ,,,command_playbook_move,wait_list
+command_trickster_4 ,,,command_playbook_move,wait_list
+command_trickster_5 ,,,command_playbook_move,wait_list
+command_trickster_6 ,,,command_playbook_move,wait_list
+command_trickster_7 ,,,command_playbook_move,wait_list
+command_trickster_8 ,,,command_playbook_move,wait_list
+command_trickster_9,,,command_playbook_move,wait_list
+command_trickster_10 ,,,command_playbook_move,wait_list
+command_bloody_1 ,,,command_playbook_move,wait_list
+command_bloody_2 ,,,command_playbook_move,wait_list
+command_bloody_3 ,,,command_playbook_move,wait_list
+command_bloody_4 ,,,command_playbook_move,wait_list
+command_bloody_5 ,,,command_playbook_move,wait_list
+command_bloody_6 ,,,command_playbook_move,wait_list
+command_bloody_7 ,,,command_playbook_move,wait_list
+command_dream_8 ,,,command_playbook_move,wait_list
+command_dream_9 ,,,command_playbook_move,wait_list
+command_dream_10 ,,,command_playbook_move,wait_list
+command_dream_11 ,,,command_playbook_move,wait_list
+command_dream_12 ,,,command_playbook_move,wait_list
+command_dream_13 ,,,command_playbook_move,wait_list
+command_dream_14 ,,,command_playbook_move,wait_list
+command_ensemble_1 ,,,command_playbook_move,wait_list
+command_ensemble_2 ,,,command_playbook_move,wait_list
+command_ensemble_3 ,,,command_playbook_move,wait_list
+command_ensemble_4 ,,,command_playbook_move,wait_list
+command_ensemble_5 ,,,command_playbook_move,wait_list
+command_ensemble_6 ,,,command_playbook_move,wait_list
+command_ensemble_7 ,,,command_playbook_move,wait_list
+command_hologodess_1 ,,,command_playbook_move,wait_list
+command_hologodess_2 ,,,command_playbook_move,wait_list
+command_hologodess_3 ,,,command_playbook_move,wait_list
+command_hologodess_4 ,,,command_playbook_move,wait_list
+command_hologodess_5 ,,,command_playbook_move,wait_list
+command_hologodess_6 ,,,command_playbook_move,wait_list
+command_hologodess_7 ,,,command_playbook_move,wait_list
+command_investigator_1 ,,,command_playbook_move,wait_list
+command_investigator_2 ,,,command_playbook_move,wait_list
+command_investigator_3 ,,,command_playbook_move,wait_list
+command_investigator_4 ,,,command_playbook_move,wait_list
+command_investigator_5 ,,,command_playbook_move,wait_list
+command_investigator_6 ,,,command_playbook_move,wait_list
+command_investigator_7 ,,,command_playbook_move,wait_list
+command_legion_1 ,,,command_playbook_move,wait_list
+command_legion_2 ,,,command_playbook_move,wait_list
+command_legion_3 ,,,command_playbook_move,wait_list
+command_legion_4 ,,,command_playbook_move,wait_list
+command_legion_5 ,,,command_playbook_move,wait_list
+command_legion_6 ,,,command_playbook_move,wait_list
+command_legion_7 ,,,command_playbook_move,wait_list
+command_matriarch_1 ,,,command_playbook_move,wait_list
+command_matriarch_2 ,,,command_playbook_move,wait_list
+command_matriarch_3 ,,,command_playbook_move,wait_list
+command_matriarch_4 ,,,command_playbook_move,wait_list
+command_matriarch_5 ,,,command_playbook_move,wait_list
+command_matriarch_6 ,,,command_playbook_move,wait_list
+command_matriarch_7 ,,,command_playbook_move,wait_list
+command_naga_1 ,,,command_playbook_move,wait_list
+command_naga_2 ,,,command_playbook_move,wait_list
+command_naga_3 ,,,command_playbook_move,wait_list
+command_naga_4 ,,,command_playbook_move,wait_list
+command_naga_5 ,,,command_playbook_move,wait_list
+command_naga_6 ,,,command_playbook_move,wait_list
+command_naga_7 ,,,command_playbook_move,wait_list
+command_sun_destruct,destruct,,command_playbook_move,added
+command_sun_baking,baking,,command_playbook_move,added
+command_sun_ground,ground,,command_playbook_move,WIP
+command_sun_friend,friend,,command_playbook_move,WIP
+command_sun_focus,focus,,command_playbook_move,WIP
+command_sun_know,know,,command_playbook_move,WIP
+command_sun_defiance,defiance,,command_playbook_move,WIP
+command_sun_reinforcement,reinforcement,,command_playbook_move,WIP
+command_troubadour_1 ,,,command_playbook_move,wait_list
+command_troubadour_2 ,,,command_playbook_move,wait_list
+command_troubadour_3 ,,,command_playbook_move,wait_list
+command_troubadour_4 ,,,command_playbook_move,wait_list
+command_troubadour_5 ,,,command_playbook_move,wait_list
+command_troubadour_6 ,,,command_playbook_move,wait_list
+command_troubadour_7 ,,,command_playbook_move,wait_list

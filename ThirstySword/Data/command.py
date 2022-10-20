@@ -11,3 +11,4 @@ class Command:
     }
     self.type = type
     self.status = status
+    self.active_language = None
