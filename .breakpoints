@@ -1,3 +1,12 @@
 {
-  "files": {}
+  "files": {
+    "ThirstySword/Managers/playbook_manager.py": [
+      {
+        "id": "1aaf240f-665c-4e83-8cfc-eea16210293a",
+        "line": 17,
+        "version": 91,
+        "index": 638
+      }
+    ]
+  }
 }

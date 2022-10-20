@@ -1,5 +1,6 @@
-from Managers.command_manager import Commands_Manager
-from Managers.moves_manager import Moves
+from Managers.commands_manager import Commands_Manager
+from Managers.moves_manager import Moves_Manager
+from Managers.playbooks_manager import Playbooks_Manager
 from Localization.localizer import Localizer
 from enum import Enum
 from Data.command import Command
@@ -9,7 +10,8 @@ class DataManager:
   def __init__(self):
     self.commands_manager = Commands_Manager()
     self.localizer = Localizer()
-    self.moves_manager = Moves()
+    self.moves_manager = Moves_Manager()
+    self.playbooks_manager = Playbooks_Manager()
     self.current_command = None
 
   def message_contains_command(self, message):

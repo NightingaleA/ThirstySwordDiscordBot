@@ -1,16 +1,15 @@
 import pandas as pd
 import discord
-from collections import namedtuple
 from Data.move import Move
 
-class Moves:
+class Moves_Manager:
   def __init__(self):
     self._movesDataframe = pd.read_csv(
       "ThirstySword/Data/data_moves.csv")
     self._movesDataframe.set_index("uniqueID",
                                       drop=True,
                                       inplace=True)
-
+    self._movesDataframe.fillna('-', inplace=True)
     self.dictionary = self._movesDataframe.to_dict(orient="index")
     self.list = []
 

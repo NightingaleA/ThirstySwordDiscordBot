@@ -17,6 +17,7 @@ class Localizer:
     self._condition_dataframe.set_index("localization_id",
                                       drop=True,
                                       inplace=True)
+    self._condition_dataframe.fillna('-', inplace=True)
     self.dictionary_conditions = self._condition_dataframe.to_dict(orient="index")
 
   def __load_labels__(self):
@@ -25,7 +26,7 @@ class Localizer:
     self._labels_dataframe.set_index("localization_id",
                                       drop=True,
                                       inplace=True)
-
+    self._labels_dataframe.fillna('-', inplace=True)
     self.dictionary_labels = self._labels_dataframe.to_dict(orient="index")
 
   def __load_moves__(self):
@@ -37,7 +38,7 @@ class Localizer:
     
 
     first_concat = pd.concat([moves_dataframe, beast_dataframe], ignore_index=True)
-    print(first_concat)
+
     scoundrel_dataframe= pd.read_csv(
       "ThirstySword/Localization/localization_scoundrel_moves.csv")
 
@@ -60,8 +61,7 @@ class Localizer:
     self._moves_dataframe.set_index("localization_id",
                                       drop=True,
                                       inplace=True)
-    
-    print(self._moves_dataframe)
+    self._moves_dataframe.fillna('-', inplace=True)
     self.dictionary_moves = self._moves_dataframe.to_dict(orient="index")
 
   def __load_playbooks__(self):
@@ -70,7 +70,7 @@ class Localizer:
     self._playbooks_dataframe.set_index("localization_id",
                                       drop=True,
                                       inplace=True)
-
+    self._playbooks_dataframe.fillna('-', inplace=True)
     self.dictionary_playbooks = self._playbooks_dataframe.to_dict(orient="index")
 
   def __load_utils__(self):
@@ -79,7 +79,7 @@ class Localizer:
     self._utils_dataframe.set_index("localization_id",
                                       drop=True,
                                       inplace=True)
-
+    self._utils_dataframe.fillna('-', inplace=True)
     self.dictionary_utils = self._utils_dataframe.to_dict(orient="index")
 
 

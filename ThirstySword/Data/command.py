@@ -1,4 +1,5 @@
 from enum import Enum
+import math
 
 COMMAND_STATUS= Enum('COMMAND_STATUS', 'added WIP wait_list')
 
@@ -12,3 +13,5 @@ class Command:
     self.type = type
     self.status = status
     self.active_language = None
+
+  
