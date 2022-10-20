@@ -2,7 +2,7 @@ import os
 import discord
 from discord.ext import commands
 from Utils.keep_bot_alive import keep_bot_alive
-from command_manager import CommandsManager
+from input_handler import input_handler
 
 TOKEN = os.getenv('DISCORD_TOKEN')
 
@@ -11,7 +11,7 @@ intents.message_content = True
 
 bot = commands.Bot(command_prefix='$', intents=intents)
 
-commands_manager = CommandsManager()
+commands_manager = input_handler()
 
 @bot.event
 async def on_ready():

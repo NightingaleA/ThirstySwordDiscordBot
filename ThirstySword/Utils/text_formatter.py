@@ -11,7 +11,7 @@ class Text_Formatter:
     self.underline = self.__get_underline_format__()
     self.strikethrough = self.__get_strikeout_format__()
     self.newline = self.__get_newline_format__()
-    self.quote = self.__get_quote_format__()
+    self.quote = self.__get_quote_symbol__()
     self.notation = self.__get_notation_symbol__()
   
   def __get_as_is_format__(self):
@@ -47,7 +47,7 @@ class Text_Formatter:
   def __get_newline_format__(self):
     return "\n"
 
-  def __get_quote_format__(self):
+  def __get_quote_symbol__(self):
     return "> "
   
   def __get_notation_symbol__(self):

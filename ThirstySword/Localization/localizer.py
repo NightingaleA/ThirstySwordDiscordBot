@@ -2,7 +2,7 @@ import pandas as pd
 from enum import Enum
 
 class Localizer:
-  LANGUAGES = Enum('LAGUAGES', 'none english español')
+  LANGUAGES = Enum('LANGUAGES', 'none english español')
   def __init__(self):
     self.lang  = self.LANGUAGES.english
     self.__load_condtions__()
@@ -17,7 +17,6 @@ class Localizer:
     self._condition_dataframe.set_index("localization_id",
                                       drop=True,
                                       inplace=True)
-
     self.dictionary_conditions = self._condition_dataframe.to_dict(orient="index")
 
   def __load_labels__(self):
@@ -30,12 +29,39 @@ class Localizer:
     self.dictionary_labels = self._labels_dataframe.to_dict(orient="index")
 
   def __load_moves__(self):
-    self._moves_dataframe = pd.read_csv(
+    moves_dataframe = pd.read_csv(
       "ThirstySword/Localization/localization_moves.csv")
+    
+    beast_dataframe= pd.read_csv(
+      "ThirstySword/Localization/localization_beast_moves.csv")
+    
+
+    first_concat = pd.concat([moves_dataframe, beast_dataframe], ignore_index=True)
+    print(first_concat)
+    scoundrel_dataframe= pd.read_csv(
+      "ThirstySword/Localization/localization_scoundrel_moves.csv")
+
+    
+
+    second_concat = pd.concat([first_concat, scoundrel_dataframe], ignore_index=True)
+
+    spooky_dataframe= pd.read_csv(
+      "ThirstySword/Localization/localization_spooky_moves.csv")
+
+    
+
+    third_concat = pd.concat([second_concat, spooky_dataframe], ignore_index=True)
+
+    sun_dataframe= pd.read_csv(
+      "ThirstySword/Localization/localization_sun_moves.csv")
+
+    self._moves_dataframe =  pd.concat([third_concat, sun_dataframe], ignore_index=True)
+
     self._moves_dataframe.set_index("localization_id",
                                       drop=True,
                                       inplace=True)
-
+    
+    print(self._moves_dataframe)
     self.dictionary_moves = self._moves_dataframe.to_dict(orient="index")
 
   def __load_playbooks__(self):
