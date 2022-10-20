@@ -26,14 +26,14 @@ command_special,special,especial,command_special_move_list,added
 command_call,call,llamado,command_special_move,added
 command_eos,eos,fds,command_special_move,added
 command_playbooks,playbooks,libretos,command_playbook_list,added
-command_beast,beast,bestia,command_playbook,wait_list
+command_beast,beast,bestia,command_playbook,added
 command_chosen,chosen,elegida,command_playbook,wait_list
 command_devoted,devoted,devota,command_playbook,wait_list
 command_infamous,infamous,infame,command_playbook,wait_list
 command_nature,nature,naturaleza,command_playbook,wait_list
-command_scoundrel,scoundrel,picara,command_playbook,wait_list
+command_scoundrel,scoundrel,picara,command_playbook,added
 command_seeker,seeker,buscadora,command_playbook,wait_list
-command_spooky,spooky,aterradora,command_playbook,wait_list
+command_spooky,spooky,aterradora,command_playbook,added
 command_trickster,trickster,embustera,command_playbook,wait_list
 command_bloody,bloody,sangrienta,command_playbook,wait_list
 command_dream,dream,sueños,command_playbook,wait_list
@@ -43,7 +43,7 @@ command_investigator,investigator,investigadora,command_playbook,wait_list
 command_legion,legion,legion,command_playbook,wait_list
 command_matriarch,matriarch,matriarca,command_playbook,wait_list
 command_naga,naga,naga,command_playbook,wait_list
-command_sun,sun,sol,command_playbook,wait_list
+command_sun,sun,sol,command_playbook,added
 command_troubadour,troubadour,trobador,command_playbook,wait_list
 command_beast_feral,feral,,command_playbook_move,added
 command_beast_transform,transform,,command_playbook_move,added
@@ -105,7 +105,7 @@ command_seeker_6 ,,,command_playbook_move,wait_list
 command_seeker_7 ,,,command_playbook_move,wait_list
 command_seeker_8 ,,,command_playbook_move,wait_list
 command_seeker_9 ,,,command_playbook_move,wait_list
-command_spooky_unseen,unseem,,command_playbook_move,added
+command_spooky_unseen,unseen,,command_playbook_move,added
 command_spooky_commune,commune,,command_playbook_move,added
 command_spooky_snails,snails,,command_playbook_move,added
 command_spooky_dance,dance,,command_playbook_move,added

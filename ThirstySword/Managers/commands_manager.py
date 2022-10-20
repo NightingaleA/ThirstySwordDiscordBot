@@ -14,6 +14,8 @@ class Commands_Manager:
                                       drop=True,
                                       inplace=True)
 
+    self._commandsDataframe.fillna('-', inplace=True)
+
     self.dictionary = self._commandsDataframe.to_dict(orient="index")
     self.list = []
 
@@ -46,7 +48,6 @@ class Commands_Manager:
     author = message.author
     embed.set_author(name=author.display_name)
     embed.set_thumbnail(url=author.avatar)
-    embed.add_field(name='\u200b', value=response)
 
     return (embed)
 
@@ -57,10 +58,10 @@ class Commands_Manager:
         list.append(command)
     return list
 
-  def get_playbook_move_list(self, data_manager, playbook_id)
+  def get_playbook_move_list(self, data_manager, playbook_id):
     list = []
     for command in self.list:
-      if (command.type == data_manager.COMMAND_TYPE.command_playbook_move):
+      if (command.type == data_manager.COMMAND_TYPE.command_playbook_move.name):
         if(playbook_id in command.id):
           list.append(command)
     return list
@@ -71,30 +72,29 @@ class Commands_Manager:
     new_response = response
     notation_needed = _notation_needed
 
-    new_response = new_response + cmd
     index = 0
-
+    is_list = False
     for command in list:
       if (index > 0):
         new_response = new_response + ", "
       index += 1
       cmd = ''
-
+  
       if ('list' in command.type):
+        is_list = True
         if (command.status == "added"):
-          cmd = (self.formatter.bold).format(
-            command.languages[localizer.lang.name])
+          cmd = command.languages[localizer.lang.name]
         else:
-          cmd = (self.formatter.notation + self.formatter.bold).format(command.languages[localizer.lang.name])
+          cmd = (self.formatter.notation).format(command.languages[localizer.lang.name])
           notation_needed = True
         
         if not title: 
-          title = localizer.get_utils_with_key('asking_for') + cmd 
+          title = localizer.get_utils_with_key('asking_for') + (self.formatter.bold).format(cmd) 
         else:
-           new_response = new_response + cmd
+           new_response = new_response + (self.formatter.bold_underline).format(cmd)
       else:
         if (command.status == COMMAND_STATUS.added.name):
-          cmd = (self.formatter.italics).format(
+          cmd = (self.formatter.bold_italics).format(
             command.languages[localizer.lang.name])
         else:
           cmd = (self.formatter.notation + self.formatter.italics).format(
@@ -102,6 +102,9 @@ class Commands_Manager:
           notation_needed = True
         new_response = new_response + cmd
 
+    if not is_list:
+        new_response = new_response + self.formatter.newline
+      
     return new_response, title, notation_needed
 
 

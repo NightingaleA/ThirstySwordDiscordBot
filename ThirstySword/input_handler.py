@@ -102,15 +102,8 @@ class input_handler:
 
       if (self.data_manager.current_command.type ==
           self.data_manager.COMMAND_TYPE.command_playbook.name):
-        commands_to_include = []
-        commands_to_include.append(
-          self.data_manager.COMMAND_TYPE.command_playbook.name)
-        commands_to_include.append(
-          self.data_manager.COMMAND_TYPE.command_playbook_move.name)
-
-        response = self.data_manager.commands_manager.get_command_list(
-          self.data_manager.localizer, message, commands_to_include)
-        return response
+          response = self.data_manager.playbooks_manager.do_playbook(self.data_manager, message)
+          return response
 
       else: 
         response = self.data_manager.moves_manager.do_move(self.data_manager, message)
