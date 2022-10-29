@@ -105,6 +105,14 @@ class input_handler:
           response = self.data_manager.playbooks_manager.do_playbook(self.data_manager, message)
           return response
 
+      if(self.data_manager.current_command.type ==
+          self.data_manager.COMMAND_TYPE.command_label.name):
+        response = self.data_manager.parse_label( message)
+        return response  
+      if(self.data_manager.current_command.type ==
+          self.data_manager.COMMAND_TYPE.command_condition.name):
+        response = self.data_manager.parse_condition( message)
+        return response  
       else: 
         response = self.data_manager.moves_manager.do_move(self.data_manager, message)
         return response

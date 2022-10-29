@@ -1,20 +1,21 @@
 localization_id,english,español
 name_sun_destruct,Self Destruct,
 name_sun_baking,Sun Hand Baking,
-name_sun_ground,,
-name_sun_friend,,
-name_sun_focus,,
-name_sun_know,,
-name_sun_defiance,,
-name_sun_reinforcement,,
+name_sun_ground,Common Ground,
+name_sun_friend,Fast Friend,
+name_sun_focus,Hyperfocus,
+name_sun_know,Know-It-All,
+name_sun_defiance,Oppositional Defiance,
+name_sun_reinforcement,Positive Reinforcement,
 trigger_sun_destruct,"**As long as you have seen or read about it before, choose any move from another playbook to have as your current Obsession move.**",
 trigger_sun_baking,"**If you have dough, you can bake it anywhere. You can channel the heat of the sun into your hands. Bake bread by holding the dough and enveloping it in a solar aura.**",
-trigger_sun_ground,,
-trigger_sun_friend,,
-trigger_sun_focus,,
-trigger_sun_know,,
-trigger_sun_defiance,,
-trigger_sun_reinforcement,,
+trigger_sun_ground,**When you gain a String on someone who has your currentObsession move**,
+trigger_sun_friend,"Your need to impress others and be vulnerable with them leads to you being easy to befriend.
+**When meeting someone for the first time, **",
+trigger_sun_focus,"**When you’re focused, you’re focused.**",
+trigger_sun_know,**You always seem to have advice for something.**,
+trigger_sun_defiance,**You defy authority as a reflex.**,
+trigger_sun_reinforcement,**Confirmation that your obsessions are good give you a boost.**,
 blurb_sun_destruct,"**•** You can choose a move from your own playbook, which allows you to discard a String to reroll when doing that move.
 **•** Your Self-Destruct score starts at 0.
 **•** If it hits 4, you lose a String with someone or someone gains
@@ -46,9 +47,12 @@ blurb_sun_baking,"When you do, tell everyone what the aura looks like, and __rol
 **•** Breadbane: Name a specific species that is repelled by the scent; it tastes really nice for everyone but those named
 **•** Illuminated Crust: Tastes too sweet; glows and causes those who eat it to glow for a few hours
 **•** Hard Crust: Tastes like a rock; can be used as a makeshift club in a pinch Imbued powers fade from the bread after one day.",
-blurb_sun_ground,,
-blurb_sun_friend,,
-blurb_sun_focus,,
-blurb_sun_know,,
-blurb_sun_defiance,,
-blurb_sun_reinforcement,,
+blurb_sun_ground,"You both choose whether to bond over it. 
+If you do, they gain a String on you and you both clear a Condition.",
+blurb_sun_friend,"You may ask them a question about one of their interests, and you each take a String on the other. If you do something nice with this detail in a future session for that person, they mark XP.",
+blurb_sun_focus,"And when you get in that zone of focus, you learn faster. Once per scene, when you use an Obsession move twice in a row, describe how your understanding of the move has deepened and mark XP.",
+blurb_sun_know,"If you’ve seen someone make a particular move before, you can discard a String on anyone but them to let them reroll that move (once per roll).",
+blurb_sun_defiance,"If someone tells you to do something, even if it's something you wanted to do, your instinct is to not do it. 
+If you directly defy authority, gain a String on that person. 
+If you comply, they gain a String on you.",
+blurb_sun_reinforcement,"When you roll a 10+ using your Obsession move, choose someone present to impress and gain a String on them.",

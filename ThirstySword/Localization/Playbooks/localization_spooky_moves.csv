@@ -4,7 +4,7 @@ name_spooky_commune,Commune With The Unseen,
 name_spooky_snails,I Like Snails!,
 name_spooky_dance,Astral Dance,
 name_spooky_divination,Divination,
-name_spooky_dream,Dreamwalk,
+name_spooky_dreamwalk,Dreamwalk,
 name_spooky_companion,Eerie Companion,
 name_spooky_places,Friends in Weird Places,
 name_spooky_nerdy,Talk Nerdy to Me,
@@ -14,7 +14,7 @@ trigger_spooky_commune,**When you perform a ritual to commune with the Unseen.**
 trigger_spooky_snails,**When you are Smitten with someone and Figure Them Out**,
 trigger_spooky_dance,**When you dance across the boundary into the realm beyond**,
 trigger_spooky_divination,**When you have time and safety to read the unseen truth of someone present**,
-trigger_spooky_dream,"**When you touch an unconscious, sleeping, or willing subject**",
+trigger_spooky_dreamwalk,"**When you touch an unconscious, sleeping, or willing subject**",
 trigger_spooky_companion,**You have a little pet monster or spirit**,
 trigger_spooky_places,**You are friends with some odd people. When you call on them for help**,
 trigger_spooky_nerdy,**When you Entice someone**,
@@ -45,7 +45,7 @@ blurb_spooky_divination,"describe your divination process and what makes it cons
 
 **10+:** If you tell the truth, they clear a Condition. If you lie, gain a String on them.
 **7–9:** They learn the truth and clear a Condition.",
-blurb_spooky_dream,you can see an impression of their thoughts and appear in their dreams. You make roll __+Spirit__ to Figure Out or Entice them in this state.,
+blurb_spooky_dreamwalk,you can see an impression of their thoughts and appear in their dreams. You may roll __+Spirit__ to Figure Out or Entice them in this state.,
 blurb_spooky_companion,"Choose two basic moves. The companion grants you +1 to these moves when it assists you, but it's assistance is always obvious and alarming to ordinary people. In addition, you can speak with monsters.",
 blurb_spooky_places,"The GM tells you what they provide. Give them a String on you and mark the Favor next to their name. Whenever significant time passes, one of your friends with marked Favor will need help from you. Clear their Favor if you help, mark a Condition if you don't.",
 blurb_spooky_nerdy,"roll __+Wit__ instead of __+Heart.__
