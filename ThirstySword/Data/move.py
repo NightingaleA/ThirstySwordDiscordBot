@@ -20,10 +20,10 @@ class Move:
     response = self.formatter.newline
     title = ''
     response = data_manager.localizer.get_move_with_key(self.blurb) + self.formatter.newline
-
-    if (self.rolls):
+    
+    if (self.rolls == True):
       title = data_manager.localizer.get_utils_with_key("rolled")
-      result, die1, die2, mod = self.roll(message.content)
+      result, die1, die2, mod = self.roll(data_manager.current_command.modifier)
       formatted_result = die1 + " + " + die2 + mod + " = " + result
       response = response + self.formatter.newline + self.formatter.newline + (self.formatter.bold).format(formatted_result)
     else:
@@ -38,16 +38,11 @@ class Move:
 
     return embed
 
-  def roll(self, message):
+  def roll(self, command_mod):
     die_1 = random.randrange(1, 7)
     die_2 = random.randrange(1, 7)
-    list_mod = re.findall(r'[-+]?(?:\d{1,3}(?:,\d{3})+|\d+)(?:\.\d+)?', message)
-    if not list_mod:
-       mod = 0
-    else:
-      mod = int(list_mod[0] )
  
-    mod = self.__clamp__(mod, -3, 4)
+    mod = self.__clamp__(command_mod, -3, 4)
     string_mod = " " + str(abs(mod))
     if(mod >= 0):
       string_mod = " +" + string_mod

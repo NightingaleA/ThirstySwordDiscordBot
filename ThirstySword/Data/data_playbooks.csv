@@ -1,5 +1,20 @@
-uniqueID,command,name,blurb,truths,source
-playbook_beast,command_beast,name_beast,blurb_beast,truths_beast,Thirsty Sword Lesbians
-playbook_scoundrel,command_scoundrel,name_scoundrel,blurb_scoundrel,truths_scoundrel,Thirsty Sword Lesbians
-playbook_spooky,command_spooky,name_spooky,blurb_spooky,truths_spooky,Thirsty Sword Lesbians
-playbook_sun,command_sun,name_sun,blurb_sun,truths_sun,Advanced Lovers Lesbians
+uniqueID,command,name,blurb,source
+playbook_beast,command_beast,name_beast,blurb_beast,Thirsty Sword Lesbians
+playbook_chosen,command_chosen,name_chosen,blurb_chosen,Thirsty Sword Lesbians
+playbook_devoted,command_devoted,name_devoted,blurb_devoted,Thirsty Sword Lesbians
+playbook_infamous,command_infamous,name_infamous,blurb_infamous,Thirsty Sword Lesbians
+playbook_nature,command_nature,name_nature,blurb_nature,Thirsty Sword Lesbians
+playbook_scoundrel,command_scoundrel,name_scoundrel,blurb_scoundrel,Thirsty Sword Lesbians
+playbook_seeker,command_seeker,name_seeker,blurb_seeker,Thirsty Sword Lesbians
+playbook_spooky,command_spooky,name_spooky,blurb_spooky,Thirsty Sword Lesbians
+playbook_trickster,command_trickster,name_trickster,blurb_trickster,Thirsty Sword Lesbians
+playbook_bloody,command_bloody,name_bloody,blurb_bloody,Advanced Lovers Lesbians
+playbook_dream,command_dream,name_dream,blurb_dream,Advanced Lovers Lesbians
+playbook_ensemble,command_ensemble,name_ensemble,blurb_ensemble,Advanced Lovers Lesbians
+playbook_hologodess,command_hologodess,name_hologodess,blurb_hologodess,Advanced Lovers Lesbians
+playbook_investigator,command_investigator,name_investigator,blurb_investigator,Advanced Lovers Lesbians
+playbook_legion,command_legion,name_legion,blurb_legion,Advanced Lovers Lesbians
+playbook_matriarch,command_matriarch,name_matriarch,blurb_matriarch,Advanced Lovers Lesbians
+playbook_naga,command_naga,name_naga,blurb_naga,Advanced Lovers Lesbians
+playbook_sun,command_sun,name_sun,blurb_sun,Advanced Lovers Lesbians
+playbook_troubadour,command_troubadour,name_troubadour,blurb_troubadour,Advanced Lovers Lesbians

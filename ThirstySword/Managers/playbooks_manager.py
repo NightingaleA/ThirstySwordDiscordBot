@@ -12,7 +12,7 @@ class Playbooks_Manager:
     self.list = []
 
     for id, element in self.dictionary.items():
-      playbook = Playbook(id, element['command'], element['name'], element['blurb'],  element['truths'], element['source'])
+      playbook = Playbook(id, element['command'], element['name'], element['blurb'], element['source'])
       self.list.append(playbook)
 
   def do_playbook(self, data_manager, message):

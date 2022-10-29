@@ -1,0 +1,65 @@
+localization_id,english,español
+name_beast_feral,Feral,
+name_beast_transform,Transform,
+name_beast_dyke,Big Dyke Energy,
+name_beast_ferocious,Ferocious,
+name_beast_shameless,Shameless,
+name_beast_tenacious,Tenacious Purpose,
+name_beast_tracker,Tracker,
+trigger_beast_feral,"**You may walk in civilized circles, but sooner or later your feral truth will come to the fore.**",
+trigger_beast_transform,"**You have a bestial form, which you can assume at will and must assume whenever your Feral hits 4.**",
+trigger_beast_dyke,**When you make it clear to your foes that you’re the biggest threat.**,
+trigger_beast_ferocious,**When you Fight.**,
+trigger_beast_shameless,**When you say aloud what you want from an NPC.**,
+trigger_beast_tenacious,**When you commit yourself to a specific goal.**,
+trigger_beast_tracker,"**When you investigate a person’s living space, camp, or trail, or an object important to them.**",
+blurb_beast_feral,"**•** Your Feral score starts at 1. 
+**•** If it hits 4, you can’t hold back the beast any longer and you Transform.
+**•** If your Feral drops to 0, you lose access to all your Beast playbook moves until it increases again. On the plus side, you’re fitting in. You blend. You’ve assimilated.
+
+**Increase Feral when:**
+ **•** You express yourself in a shocking way through your appearance
+ **•** You display intense emotion that society wants you to conceal
+
+**Decrease Feral when:**
+ **•** You feel that your bestial nature has hurt someone you care about
+ **•** You go along with an uncomfortable interaction to fit in",
+blurb_beast_transform,"When you do, tell everyone what the beast in you looks like, increase your Feral to 4 if it’s not there already, and __roll +Daring:__
+**10+:** Choose 2
+**7–9:** Choose 1
+
+**•** You are in harmony with your beast and may clear a Condition
+**•** You are magnificent and little escapes your notice; you gain leverage or an opportunity with a monster
+**•** Pain is nothing to you; ignore the next time you would Stagger while transformed
+**•** You can move in ways no ordinary person could
+
+You revert to your usual form when your Feral drops below 4. While transformed, you may mark a Condition to avoid reducing your Feral, as often as you like.",
+blurb_beast_dyke,"then for the rest of the scene:
+ __Whenever you roll a 10+,__ you may choose someone present to be impressed or intrigued with you. 
+Once during the scene, __when you gain a String on someone,__ gain an additional String on someone else who considers you an enemy.",
+blurb_beast_ferocious,"you may __mark a Condition__ to choose an __additional option,__ even on a 6-.",
+blurb_beast_shameless,"You may __give them a String__ on you to ask a question about them from the __Figure Out a Person move.__
+
+**•** What are your feelings towards _____?
+**•** What do you hope to get from _____?
+**•** How could I get you to _____?
+**•** What do you love most?
+**•** How would you feel if I _____?",
+blurb_beast_tenacious,"You may __ask the GM once per scene__ how you could advance that goal in a way that violates “civilized” norms. 
+__Take +1 forward to act on the answer.__ 
+__If you refrain,__ it counts as an uncomfortable situation that __reduces__ your __Feral__ by 1 and you must __mark a Condition.__",
+blurb_beast_tracker,"You can __roll +Heart__ instead of +Wit to **Figure Them Out,** and may do so even when they’re not present. 
+You can also ask the question,**“Where did they go?”** as if it were an option on the list for that move. 
+
+On a **7–9,** they take a String on you instead of asking a question back. Say why. Do they just smell that good or that fearsome?
+
+**Figure Them Out**
+__roll +Wit__ (+3 more if you spend a String on them):
+**10+:**You may ask 2 questions, now or later in the scene
+**7–9:**You may ask 2 questions, but they may ask 1 of you
+
+**•** What are your feelings towards _____?
+**•** What do you hope to get from _____?
+**•** How could I get you to _____?
+**•** What do you love most?
+**•** How would you feel if I _____?",

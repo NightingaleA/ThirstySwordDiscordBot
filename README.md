@@ -7,4 +7,6 @@ PENDING:
 -> Most Playbooks and Playbook Moves
 -> Slash commands
 
-https://discord.com/api/oauth2/authorize?client_id=1023752228005224458&permissions=2147698688&scope=bot
+[Help Form](https://forms.gle/nM5vgj1vWanFHpm59)
+
+[Invite Link](https://discord.com/api/oauth2/authorize?client_id=1023752228005224458&permissions=2147698688&scope=bot)
