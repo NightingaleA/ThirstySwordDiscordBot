@@ -17,16 +17,17 @@ class Moves_Manager:
       move = Move(id, element['command'], element['name'], element['trigger'], element['blurb'], element['rolls'], element['type'])
       self.list.append(move)
 
-  def do_move(self, data_manager, message):
-    move_to_do = None
-    for move in self.list:
-      if(data_manager.current_command.id == move.command):
-        move_to_do = move
-        break
+  def do_move(self, data_manager):
+    move_to_do = self.get_move(data_manager.current_command.id)
 
     if(move_to_do):
-      response = move_to_do.parse_move(data_manager, message)  
+      response = move_to_do.parse_move(data_manager)  
       return response
-      
+
+  def get_move(self, command_id):
+    for move in self.list:
+      if(command_id == move.command):
+        return move
+        
 
     

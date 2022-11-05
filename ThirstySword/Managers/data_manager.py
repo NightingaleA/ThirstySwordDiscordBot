@@ -18,8 +18,8 @@ class DataManager:
     self.playbooks_manager = Playbooks_Manager()
     self.current_command = None
 
-  def message_contains_command(self, message):
-    messageText = message
+  def message_contains_command(self, message_content):
+    messageText = message_content
     messageText = messageText.lower()
     messageText = messageText.replace(" ", "");
     messageText = re.sub('[$]', '', messageText)
@@ -55,25 +55,25 @@ class DataManager:
         return command_in_message
     return command_in_message
 
-  def parse_label(self, message):
+  def parse_label(self):
     title = self.localizer.get_utils_with_key('asking_for') +  self.localizer.get_label_with_key("title_" + self.current_command.id)
     blurb = self.localizer.get_label_with_key("blurb_" + self.current_command.id)
     
     embed = discord.Embed(title=title, colour=5450873, description = blurb)
-    author = message.author
-    embed.set_author(name=author.display_name)
-    embed.set_thumbnail(url=author.avatar)
+
+    embed.set_author(name=self.current_command.user_display_name)
+    embed.set_thumbnail(url=self.current_command.avatar)
 
     return embed
 
-  def parse_condition(self, message):
+  def parse_condition(self):
     title = self.localizer.get_utils_with_key('asking_for') +  self.localizer.get_condition_with_key("title_" + self.current_command.id)
     blurb = self.localizer.get_condition_with_key("blurb_" + self.current_command.id)
     
     embed = discord.Embed(title=title, colour=5450873, description = blurb)
-    author = message.author
-    embed.set_author(name=author.display_name)
-    embed.set_thumbnail(url=author.avatar)
+
+    embed.set_author(name=self.current_command.user_display_name)
+    embed.set_thumbnail(url=self.current_command.avatar)
 
     return embed
   
