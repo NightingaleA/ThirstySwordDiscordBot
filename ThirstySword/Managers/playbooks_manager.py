@@ -15,14 +15,15 @@ class Playbooks_Manager:
       playbook = Playbook(id, element['command'], element['name'], element['blurb'], element['source'])
       self.list.append(playbook)
 
-  def do_playbook(self, data_manager, message):
-    playbook_to_do = None
-    for playbook in self.list:
-      if(data_manager.current_command.id == playbook.command):
-        playbook_to_do = playbook
-        break
+  def do_playbook(self, data_manager):
+    playbook_to_do = self.get_playbook(data_manager.current_command.id)    
 
     if(playbook_to_do):
-      response = playbook_to_do.parse_playbook(data_manager, message)  
+      response = playbook_to_do.parse_playbook(data_manager)  
       return response
+
+  def get_playbook(self, command_id):
+    for playbook in self.list:
+      if(command_id == playbook.command):
+        return playbook
       

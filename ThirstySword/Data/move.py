@@ -16,7 +16,7 @@ class Move:
     self.rolls = rolls
     self.type = type
 
-  def parse_move(self, data_manager, message):
+  def parse_move(self, data_manager):
     response = self.formatter.newline
     title = ''
     response = data_manager.localizer.get_move_with_key(self.blurb) + self.formatter.newline
@@ -32,9 +32,9 @@ class Move:
     title = title + data_manager.localizer.get_move_with_key(self.name) + self.formatter.newline + self.formatter.newline + data_manager.localizer.get_move_with_key(self.trigger)
 
     embed = discord.Embed(title=title, colour=5450873, description = response)
-    author = message.author
-    embed.set_author(name=author.display_name)
-    embed.set_thumbnail(url=author.avatar)
+    
+    embed.set_author(name= data_manager.current_command.user_display_name )
+    embed.set_thumbnail(url= data_manager.current_command.avatar)
 
     return embed
 

@@ -26,7 +26,7 @@ class Commands_Manager:
 
 #Lists Handling
 
-  def get_command_list(self, localizer, message, commands_to_include):
+  def get_command_list(self, data_manager, commands_to_include):
     notation_needed = False
     response = self.formatter.newline
     title = ''
@@ -35,19 +35,18 @@ class Commands_Manager:
     for command_type in commands_to_include:
       list_of_commands = self.__get_list__(command_type)
       response, title, notation_needed = self.get_formated_list(
-        localizer, response, title, list_of_commands, notation_needed)
+        data_manager.localizer, response, title, list_of_commands, notation_needed)
       response = response + self.formatter.newline
 
     if (notation_needed):
-      footer = self.formatter.newline + self.formatter.newline + self.formatter.notation + localizer.get_utils_with_key(
+      footer = self.formatter.newline + self.formatter.newline + self.formatter.notation + data_manager.localizer.get_utils_with_key(
         "notation_explanation")
 
     embed = discord.Embed(title=title, colour=5450873, description=response)
     if (footer):
       embed.set_footer(text=footer)
-    author = message.author
-    embed.set_author(name=author.display_name)
-    embed.set_thumbnail(url=author.avatar)
+    embed.set_author(name= data_manager.current_command.user_display_name )
+    embed.set_thumbnail(url= data_manager.current_command.avatar)
 
     return (embed)
 

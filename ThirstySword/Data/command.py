@@ -14,5 +14,7 @@ class Command:
     self.status = status
     self.active_language = None
     self.modifier = None
+    self.user_display_name = None
+    self.user_avatar = None
 
   

@@ -10,7 +10,7 @@ class Playbook:
     self.blurb = blurb
     self.source = source
 
-  def parse_playbook(self, data_manager, message):
+  def parse_playbook(self, data_manager):
     notation_needed = False
     title = data_manager. localizer.get_utils_with_key('asking_for') + data_manager.localizer.get_playbook_with_key(self.name)
     response = data_manager.localizer.get_playbook_with_key(self.blurb) + self.formatter.newline
@@ -22,9 +22,8 @@ class Playbook:
     response, unussed_title, notation_needed = data_manager.commands_manager.get_formated_list( data_manager.localizer, response, '',move_list, notation_needed)
     
     embed = discord.Embed(title=title, colour=5450873, description = response)
-    author = message.author
-    embed.set_author(name=author.display_name)
-    embed.set_thumbnail(url=author.avatar)
+    embed.set_author(name= data_manager.current_command.user_display_name )
+    embed.set_thumbnail(url= data_manager.current_command.avatar)
 
     if (notation_needed):
       footer = self.formatter.newline + self.formatter.newline + self.formatter.notation + data_manager.localizer.get_utils_with_key(
