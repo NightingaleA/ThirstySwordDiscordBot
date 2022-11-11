@@ -11,9 +11,9 @@ class input_handler:
     response = self.get_message_from_command(message_content, display_name, display_avatar)
     if (response == None):
       response = discord.Embed(
-          title=input.data_manager.localizer.get_utils_with_key(
+          title=self.data_manager.localizer.get_utils_with_key(
             "ups_title"),
-          color=0xFF5733, description=input.data_manager.localizer.get_utils_with_key(
+          color=0xFF5733, description=self.data_manager.localizer.get_utils_with_key(
             "ups"))
     return response
   

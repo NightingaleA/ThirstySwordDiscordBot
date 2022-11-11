@@ -1,5 +1,7 @@
 # Thirsty_Sword_Discord_Bot BETA 0.1
 
+An unnoficial bot for playing Thirsty Sword Lesbians
+
 Listens too:
 - $help 
 - $ayuda

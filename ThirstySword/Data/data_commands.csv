@@ -13,6 +13,7 @@ command_guilty,guilty,culpable,command_condition,added
 command_hopeless,hopeless,desesperanzada,command_condition,added
 command_insecure,insecure,insegura,command_condition,added
 command_basic,basic,basico,command_basic_move_list,added
+command_just_roll,roll,tira,command_basic_move,added
 command_fight,fight,pelea,command_basic_move,added
 command_defy,defy,desafiar,command_basic_move,added
 command_stagger,stagger,tambalearse,command_basic_move,added
