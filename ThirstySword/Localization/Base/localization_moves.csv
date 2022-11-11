@@ -2,6 +2,7 @@ localization_id,english,español
 name_basic_move,Basic Move,Movimiento Básico
 name_special_move,Special Move,Movimiento Especial
 title_basic_moves,Basic Moves,Movimientos Básicos
+name_just_roll,Just Roll,Solo Tira
 name_fight,Fight,Pelea
 name_defy,Defy Disaster,Desafiar Desastre
 name_stagger,Stagger,Tambalearse
@@ -14,6 +15,7 @@ name_support,Emotional Support ,Soporte Emocional
 title_special_moves,Special Moves,Movimientos Especiales
 name_call,Call On A Toxic Power,Llamado A Un Poder Tóxico
 name_eos,End Of Session,Fin De Sesión
+trigger_just_roll,When you just roll 2d6 with any modifier,Cuando tiras 2d6 con cualquier modificador
 trigger_fight,**When you seek to incapacitate someone with violence.**,**Cuando buscas incapacitar a alguien con violence.**
 trigger_defy,**When you push your limits to achieve something extraordinary.**,**Cuando te empujas sobre tus límites para lograr algo extraordinario.**
 trigger_stagger,**When you suffer a staggering physical or emotional blow.**,**Cuando sufres un impactante golpe físico o emocional.**
@@ -25,6 +27,7 @@ trigger_kiss,**When people finally kiss after a period of tension.**,**Cuando la
 trigger_support,**When you offer someone support in a way that could be meaningful to them.**,**Cuando ofreces apoyo de una manera que pudiera ser significativa para ellos.**
 trigger_call,**When you parley with a Toxic Power.**,**Cuando negocias con un poder tóxico.**
 trigger_eos,**At the end of every session.**,**Al final de cada sesión.**
+blurb_just_roll,` `,` `
 blurb_fight,"__Roll +Daring or +Grace:__
 **10+:**Choose 3 and your opponent chooses 1 to apply to you in response.
  **7–9:**Choose 2 and your opponent chooses 1.

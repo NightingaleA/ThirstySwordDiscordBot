@@ -1,4 +1,5 @@
 uniqueID,command,name,trigger,blurb,rolls,type,playbook
+move_just_roll,command_just_roll,name_just_roll,trigger_just_roll,blurb_just_roll,true,command_basic_move,
 move_fight,command_fight,name_fight,trigger_fight,blurb_fight,true,command_basic_move,
 move_defy,command_defy,name_defy,trigger_defy,blurb_defy,true,command_basic_move,
 move_stagger,command_stagger,name_stagger,trigger_stagger,blurb_stagger,false,command_basic_move,

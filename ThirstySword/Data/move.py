@@ -42,7 +42,7 @@ class Move:
     die_1 = random.randrange(1, 7)
     die_2 = random.randrange(1, 7)
  
-    mod = self.__clamp__(command_mod, -3, 4)
+    mod = self.__clamp__(command_mod, -1000, 1000)
     string_mod = " " + str(abs(mod))
     if(mod >= 0):
       string_mod = " +" + string_mod
