@@ -92,9 +92,10 @@ class Slash_Command_Manager:
         
         async def basic_move_command(interaction: discord.Interaction, basic: app_commands.Choice[str], modifier: app_commands.Choice[str]=None):
             command = basic.value
-            mod = modifier.value
-            if (mod == None):
-              mod = 0
+            mod = '+0'
+            if (modifier != None):
+              mod = modifier.value
+              
           
             if(interaction.locale ==discord.Locale.spain_spanish):
               input.data_manager.localizer.lang = input.data_manager.localizer.LANGUAGES.español
@@ -125,9 +126,9 @@ class Slash_Command_Manager:
         @app_commands.choices(modifier = modifier_list)
         async def special_move_command(interaction: discord.Interaction, special: app_commands.Choice[str], modifier: app_commands.Choice[str]=None):
           command = special.value
-          mod = modifier.value
-          if (mod == None):
-            mod = 0
+          mod = '+0'
+          if (modifier != None):
+              mod = modifier.value
           
           if(interaction.locale ==discord.Locale.spain_spanish):
               input.data_manager.localizer.lang = input.data_manager.localizer.LANGUAGES.español
@@ -160,9 +161,9 @@ class Slash_Command_Manager:
         @app_commands.choices(modifier = modifier_list)
         async def playbook_move_command(interaction: discord.Interaction, playbook: app_commands.Choice[str], modifier: app_commands.Choice[str]=None):
           command = playbook.value
-          mod = '0'
-          if(modifier != None):
-            mod = modifier.value
+          mod = '+0'
+          if (modifier != None):
+              mod = modifier.value
           
           if(interaction.locale ==discord.Locale.spain_spanish):
               input.data_manager.localizer.lang = input.data_manager.localizer.LANGUAGES.español
