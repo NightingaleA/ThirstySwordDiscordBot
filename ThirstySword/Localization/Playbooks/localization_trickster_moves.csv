@@ -1,25 +1,59 @@
 localization_id,english,español
-name_trickster_feelings,,
-name_trickster_ew,,
-name_trickster_mask,,
-name_trickster_web,,
-name_trickster_fingers,,
-name_trickster_scheme,,
-name_trickster_behind,,
-name_trickster_play,,
-trigger_trickster_feelings,,
-trigger_trickster_ew,,
-trigger_trickster_mask,,
-trigger_trickster_web,,
-trigger_trickster_fingers,,
-trigger_trickster_scheme,,
-trigger_trickster_behind,,
-trigger_trickster_play,,
-blurb_trickster_feelings,,
-blurb_trickster_ew,,
-blurb_trickster_mask,,
-blurb_trickster_web,,
-blurb_trickster_fingers,,
-blurb_trickster_scheme,,
-blurb_trickster_behind,,
-blurb_trickster_play,,
+name_trickster_feelings,Feelings,
+name_trickster_ew,"Ew, Feelings",
+name_trickster_mask,The Mask,
+name_trickster_web,Center of the Web,
+name_trickster_fingers,Deft Fingers,
+name_trickster_scheme,Devious Scheme,
+name_trickster_behind,Knives behind the Mask,
+name_trickster_play,Play the Part,
+trigger_trickster_feelings,"**Your heart is as passionate as any other, but you bury it beneath layers of deception until you can’t keep your feelings in any longer.**",
+trigger_trickster_ew,"**When someone offers you Emotional Support and you refuse to open up,**",
+trigger_trickster_mask,"**When you seek to persuade an NPC of a lie about yourself,** ",
+trigger_trickster_web,"**When someone approaches you to get something from you or threaten you,** ",
+trigger_trickster_fingers,"**When you filch something from a person,** ",
+trigger_trickster_scheme,"**When others go along with your cunning plan,**",
+trigger_trickster_behind,"**When someone reveals a secret about you in your presence,** you’re prepared with a damaging secret about them. If you reveal it now in retaliation, they mark a Condition. If you keep the secret for the time being, gain a String on them.",
+trigger_trickster_play,"**When you use someone else’s personal item or clothing to disguise yourself as them,** ",
+blurb_trickster_feelings,"**•** Feelings start at 1.
+**•** Increase your Feelings by 1 each time you gain a String, someone gains a String on you, or you mark a Condition. Strings assigned during character creation don’t increase your Feelings.
+**•** You may also choose to increase your Feelings any time you find yourself gasping or swooning over someone.
+**•** When you open up to someone whose regard matters to you, reduce your Feelings by 2.
+**•** When you secretly perform a loving act for someone, reduce your Feelings by 1.
+**•** If your Feelings track reaches 4, you can’t hold it in anymore. Tear off the mask and scream what you’ve been holding in, do what you’ve been afraid to do, and damn the consequences.
+
+You can give anyone present a String on you to gain a String on them. Stop when the consequences catch up with you, for good or ill.
+Afterwards, reduce your Feelings to 0 and clear a Condition. It feels good to get it out, at least in the moment.",
+blurb_trickster_ew,"increase your Feelings by 1 and choose 1 from the listed options for that move as if they rolled 7–9. 
+If they rolled 10+, they know they got through to you; they gain the benefits of a 10+ result as if you had opened up.",
+blurb_trickster_mask,"__roll +Wit__ 
+**10+:** Choose 2
+**7–9:** Choose 1
+
+**•** They believe a big lie
+**•** The lie you have chosen is unexpectedly perfect, creating a new opportunity aThey give you the benefit of the doubt and remain convinced even if there is some evidence of your lie.
+
+Additionally, whenever a PC Figures You Out, you can give false answers. 
+You must increase your Feelings by 1 at the end of any scene where you do this.",
+blurb_trickster_web,"choose 1:
+**•** Gain a String on them or they lose a String on you
+**•** Ask them a question from the Figure Out a Person move
+**•** +1 ongoing against them for the scene",
+blurb_trickster_fingers,"__roll +Grace:__ 
+**10+:** Choose 2
+**7–9:** Choose 1
+
+**•** The item reveals a secret love or vulnerability
+**•** The item creates an opportunity (such as a map, key, or note) aThe person doesn’t know you took it",
+blurb_trickster_scheme,"__roll +Wit__ 
+**10+:** Twice during your plan, you may choose 1
+**7–9:** Once during your plan, you may choose 1
+
+**•** Produce just the right object
+**•** Describe an unexpected weakness in an obstacle aAppear right behind someone at a crucial moment",
+blurb_trickster_behind,"you’re prepared with a damaging secret about them. 
+If you reveal it now in retaliation, they mark a Condition. 
+If you keep the secret for the time being, gain a String on them.",
+blurb_trickster_play,"__roll +Daring:__
+**10+:** While you remain so dressed, your disguise is perfect; only your words or deeds may expose you.
+**7–9:** Someone sees through your disguise, but they don’t give you away just yet. Give them a String.",
