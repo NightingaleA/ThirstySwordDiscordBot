@@ -1,0 +1,71 @@
+localization_id,english,español
+name_amalgam_figure_things,Still Figuring Things Out,
+name_amalgam_mythic,Mythic,
+name_amalgam_synthetic,Synthetic Bebe,
+name_amalgam_weakness,My Only Weakness!,
+name_amalgam_mass_produced,Mass Produced,
+name_amalgam_sole_purpose,Sole Purpose,
+name_amalgam_dont_know,Don’t Know How to Act,
+name_amalgam_jailbroken,Jailbroken,
+trigger_amalgam_figure_things,"**When you are posed a question as part of a move,**",
+trigger_amalgam_mythic,"**Create one rumor, superstition, or legend about you. Once per session, when you use your powers or show a weakness in public, a new over- the-top rumor, superstition, or legend about you spreads.  When you use your reputation to your advantage, **",
+trigger_amalgam_synthetic,"**You’re unnatural and beautiful. Once per scene, when you attempt to use your body in a way that no ordinary human could, say how your body is different and**",
+trigger_amalgam_weakness,,
+trigger_amalgam_mass_produced,**Whenever someone who is Smitten with you interacts with someone who looks or behaves like you**,
+trigger_amalgam_sole_purpose,"**When you’re pursuing your purpose,**",
+trigger_amalgam_dont_know,"**When you experience something positive that’s completely new to you,**",
+trigger_amalgam_jailbroken,,
+blurb_amalgam_figure_things,"If possible your answer must include something that surprises you, that you didn’t want to admit before now, or that makes you uncertain of who you thought you were.
+If you cannot answer with something that surprises you, the other person may continue asking questions until you are surprised.
+
+Unknown Parts
+For inspiration about what might surprise you, answer these questions. 
+
+ **•** What have they incorrectly assumed or learned about themself?
+ **•** What do they wish they knew about themself? 
+ **•** What haven’t they discovered about themself?",
+blurb_amalgam_mythic," __roll +Wit.__
+**10+** Most present believe the stories about you. Others present help you achieve a goal and spread more similar rumors.
+**7-9** There’s a shadow of doubt about the rumors. Take a string on someone present who wants to believe.",
+blurb_amalgam_synthetic,"__roll +Grace or +Spirit.__ 
+**On a 6-** the consequences are severe.
+**10+** Choose 2 
+**7-9** Choose 1
+
+ **•** Enduring. (Fire or cold resistant, regenerative tissue, stone skin, breathe water, etc.) Until the end of the scene, you can survive in environments that no ordinary human could
+ **•** Talented. (Enhanced senses, genius calculations, etc.) You may re-roll a die when you next Defy Disaster or Figure Out a Person
+ **•** Dangerous. (Fire breath, venom, electricity, claws, musk etc.) On your next Fight roll this scene, choose one additional option
+ **•** Capable. (Strength, flight, contortion, webbing, etc.) Until the end of the scene, you can move in a way no ordinary human could
+ ",
+blurb_amalgam_weakness,"Pick or make up a common, hard-to-avoid weakness. (You may take more than one weakness, but only one can trigger this move.)
+
+ **•** Can’t say no to: a duel, a dance, a feast, a dare, haute couture 
+ **•** Weakened by: a spice, a metal, lullabies, daylight, a name
+
+While weakened, you cannot use Synthetic Bebe. 
+When someone asks you a question as a part of a move, they may give you two Strings to learn your weakness instead. 
+Once per session per person, when someone aids you during a moment of weakness, they gain a String on you.
+",
+blurb_amalgam_mass_produced,"they may use your strings on the Smitten person to Influence or Entice them.
+
+There are others that look and behave like you, who also lack experience existing in this world but don’t share your goals. 
+Pick 3 restricted places, people, or info you can access disguised as them.",
+blurb_amalgam_sole_purpose,"When you take this move, define what your sole purpose is. 
+Once per scene, when you’re pursuing your purpose, you may take +3 forward. 
+After your roll is resolved, the GM chooses one for you.
+
+ **•** Someone present asks about your purpose and takes a String on you 
+ **•** A Toxic Power makes a demand of you that can’t be ignored
+ **•** Take -3 forward
+ **•** Stagger",
+blurb_amalgam_dont_know,"describe your obvious emotional reaction. 
+If an-other character finds you charming or wholesome, they choose one.
+
+ **•** Share a memory of a similar time with you, and take a String on you 
+ **•** Get flustered or awkward, and give you a String
+ **•** Take +1 forward to Figure Out, Entice, or Emotionally Support them",
+blurb_amalgam_jailbroken,"You’re skilled at modding your body. 
+Choose two body parts you’ve modded, and for each take a move from another playbook and invent an aesthetic. 
+You may swap out mods when you take an advance. 
+
+When you use a mod, a Toxic Power acts to control, recall, or reclaim you.",

@@ -205,6 +205,7 @@ name_figure_naga,The Naga Figures Out A Person,La Naga Descifra a una persona
 name_figure_sun,The Sun Hand Figures Out A Person,La Rayito de Sol Descifra a una persona
 name_figure_troubadour,The Troubadour Figures Out A Person,La Trobadora Descifra a una persona
 name_figure_bladesoul,The Bladesoul Figures Out A Person,La Alama de Espada Descifra a una persona
+name_figure_amalgam,The Amalgam Figures Out A Person,La Amalgama Descifra a una persona
 trigger_figure_beast,**When you try to understand a person.**,**Cuando intentas entender a una persona.**
 trigger_figure_chosen,**When you try to understand a person.**,**Cuando intentas entender a una persona.**
 trigger_figure_devoted,**When you try to understand a person.**,**Cuando intentas entender a una persona.**
@@ -225,6 +226,7 @@ trigger_figure_naga,**When you try to understand a person.**,**Cuando intentas e
 trigger_figure_sun,**When you try to understand a person.**,**Cuando intentas entender a una persona.**
 trigger_figure_troubadour,**When you try to understand a person.**,**Cuando intentas entender a una persona.**
 trigger_figure_bladesoul,**When you try to understand a person.**,**Cuando intentas entender a una persona.**
+trigger_figure_amalgam,**When you try to understand a person.**,**Cuando intentas entender a una persona.**
 blurb_figure_beast,"choose an option from the following based on the number of Conditions you have marked.
 **4–5 Conditions:**
 **•** You’re rendered helpless for the scene.
@@ -811,6 +813,36 @@ choose an option from the following based on the number of Conditions you have m
 Cut to the Quick: When you Figure Out a Person in physical conflict, you may additionally ask one of these questions, even on a 6-:
 **What stirs your soul to battle?**
 **What would you give your life to protect?**"
+blurb_figure_amalgam,"""choose an option from the following based on the number of Conditions you have marked.
+**4–5 Conditions:**
+**•** You’re rendered helpless for the scene.
+**•** You’re utterly humiliated and news will spread; this could be a consequence of a setback in the confrontation, or might be caused by something you confess in the heat of the moment.
+**•** Choose 2 from the “0–3 Conditions” options.
+
+**0–3 Conditions:**
+**•** You lash out at someone whose regard matters to you: provoke them to do something foolish or harmful and take advantage of a String on them if you have one.
+**•** You hesitate or stumble and the opposition gains an opportunity.
+**•** You grin and bear the blow; mark two Conditions.
+
+Queer as Folk: When you Figure Out a Person in physical conflict, you may additionally ask one of these questions, even on a 6-: 
+**Why don’t you fit the role you’ve been assigned?** 
+**What part of me can’t you stop thinking about?**
+","**[Versión en español pendiente]**
+
+choose an option from the following based on the number of Conditions you have marked.
+**4–5 Conditions:**
+**•** You’re rendered helpless for the scene.
+**•** You’re utterly humiliated and news will spread; this could be a consequence of a setback in the confrontation, or might be caused by something you confess in the heat of the moment.
+**•** Choose 2 from the “0–3 Conditions” options.
+
+**0–3 Conditions:**
+**•** You lash out at someone whose regard matters to you: provoke them to do something foolish or harmful and take advantage of a String on them if you have one.
+**•** You hesitate or stumble and the opposition gains an opportunity.
+**•** You grin and bear the blow; mark two Conditions.
+
+Queer as Folk: When you Figure Out a Person in physical conflict, you may additionally ask one of these questions, even on a 6-: 
+**Why don’t you fit the role you’ve been assigned?** 
+**What part of me can’t you stop thinking about?**"
 name_smitten_beast,The Smitten Beast,La Bestia Enamorada
 name_smitten_chosen,The Smitten Chosen,La Elegida Enamorada
 name_smitten_devoted,The Smitten Devoted,La Devota Enamorada
@@ -831,6 +863,7 @@ name_smitten_naga,The Smitten Naga,La Naga Enamorada
 name_smitten_sun,The Smitten Sun Hand,La Rayito de Sol Enamorada
 name_smitten_troubadour,The Smitten Troubadour,La Trovadora Enamorada
 name_smitten_bladesoul,The Smitten Bladesoul,La Alma de Espada Enamorada
+name_smitten_amalgam,The Smitten Amalgam,La Amalgama Enamorada
 trigger_smitten_beast,**When you become Smitten with someone.**,**Cuando te enamoras de alguien.**
 trigger_smitten_chosen,**When you become Smitten with someone.**,**Cuando te enamoras de alguien.**
 trigger_smitten_devoted,**When you become Smitten with someone.**,**Cuando te enamoras de alguien.**
@@ -851,6 +884,7 @@ trigger_smitten_naga,**When you become Smitten with someone.**,**Cuando te enamo
 trigger_smitten_sun,**When you become Smitten with someone.**,**Cuando te enamoras de alguien.**
 trigger_smitten_troubadour,**When you become Smitten with someone.**,**Cuando te enamoras de alguien.**
 trigger_smitten_bladesoul,**When you become Smitten with someone.**,**Cuando te enamoras de alguien.**
+trigger_smitten_amalgam,**When you become Smitten with someone.**,**Cuando te enamoras de alguien.**
 blurb_smitten_beast,"__(always your choice),__ say why, give them a String on you, and answer the question in the Truths of Heart and Blade section of your playbook. 
 
 
@@ -1081,3 +1115,14 @@ __(always your choice),__ say why, give them a String on you, and answer the que
 
 What can I do for you?
 **What useful act do you believe their affection for you is contingent on?**"
+blurb_smitten_amalgam,"__(always your choice),__ say why, give them a String on you, and answer the question in the Truths of Heart and Blade section of your playbook. 
+
+
+Strange Attraction:
+**Why is it strange for you to like them?**","**[Versión en español pendiente]**
+
+__(always your choice),__ say why, give them a String on you, and answer the question in the Truths of Heart and Blade section of your playbook. 
+
+
+Strange Attraction:
+**Why is it strange for you to like them?**"
