@@ -1,4 +1,5 @@
 import discord
+import datetime
 from Managers.data_manager import DataManager
 
 
@@ -7,7 +8,10 @@ class input_handler:
   def __init__(self):
     self.data_manager = DataManager()
 
-  def get_response(self, message_content,display_name,  display_avatar):
+  def get_response(self, message_content,display_name,  display_avatar, server_name):
+    print(f'Server: {server_name}')
+    now = datetime.datetime.now()
+    print(now.strftime("%Y-%m-%d %H:%M:%S"))
     response = self.get_message_from_command(message_content, display_name, display_avatar)
     if (response == None):
       response = discord.Embed(
