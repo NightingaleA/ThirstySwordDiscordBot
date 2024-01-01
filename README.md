@@ -6,13 +6,9 @@ Listens too:
 - $help 
 - $ayuda
 
-The bot supports normal commands and slash commands, you can use them interchangeably, for now pinging the bot to use normal commands isn't needed but as people get to using the bot it might be needed int he future.  
-
-Most of the playbook moves aren't present yet. Will be a slow work to add all of them, if you want to help adding them check the Help Form.
-
 Supported languages:
 - English
-- Spanish
+- Spanish (Work in Process)
 
 Supported commands:
 - Help
@@ -31,5 +27,5 @@ Supported commands:
 
 [Invite Link](https://discord.com/api/oauth2/authorize?client_id=1023752228005224458&permissions=2147698688&scope=bot)
 
-##Developed on Replit
-[Replit](https://replit.com)
+##Developed on Visual Studio Code and the Python Extension
+Use poetry to set the packages, requirements.txt is only used for the deployment
