@@ -5,13 +5,18 @@ from Managers.data_manager import DataManager
 
 class input_handler:
 
-  def __init__(self):
+  def __init__(self, client:discord.Client):
     self.data_manager = DataManager()
+    self.client = client
 
-  def get_response(self, message_content,display_name,  display_avatar, server_name):
+  async def get_response(self, message_content,display_name,  display_avatar, server_name):
     print(f'Server: {server_name}')
     now = datetime.datetime.now()
     print(now.strftime("%Y-%m-%d %H:%M:%S"))
+    print(f'With presence in {len(self.client.guilds)} servers')
+    game = discord.Game(f"Playing Masks in {len(self.client.guilds)} servers!")
+    await self.client.change_presence(status=discord.Status.online, activity=game)
+    
     response = self.get_message_from_command(message_content, display_name, display_avatar)
     if (response == None):
       response = discord.Embed(

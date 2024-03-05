@@ -15,7 +15,7 @@ class Slash_Command_Manager:
           if(interaction.locale ==discord.Locale.spain_spanish):
             name = input.data_manager.__get_command_in_message__(name).languages['español']
 
-          response = input.get_response(name, interaction.user.display_name ,interaction.user.display_avatar, interaction.guild.name )
+          response = await input.get_response(name, interaction.user.display_name ,interaction.user.display_avatar, interaction.guild.name )
           await interaction.response.send_message(embed=response)
 
       #Labels
@@ -32,7 +32,7 @@ class Slash_Command_Manager:
             input.data_manager.localizer.lang = input.data_manager.localizer.LANGUAGES.español
             name =input.data_manager.__get_command_in_message__(name).languages['español']
             
-          response = input.get_response(name, interaction.user.display_name ,interaction.user.display_avatar, interaction.guild.name )
+          response = await input.get_response(name, interaction.user.display_name ,interaction.user.display_avatar, interaction.guild.name )
           await interaction.response.send_message(embed=response)
     
       #Conditions
@@ -49,7 +49,7 @@ class Slash_Command_Manager:
             input.data_manager.localizer.lang = input.data_manager.localizer.LANGUAGES.español
             name =input.data_manager.__get_command_in_message__(name).languages['español']
             
-          response = input.get_response(name, interaction.user.display_name ,interaction.user.display_avatar, interaction.guild.name )
+          response = await input.get_response(name, interaction.user.display_name ,interaction.user.display_avatar, interaction.guild.name )
           await interaction.response.send_message(embed=response)
     
       #Playbooks
@@ -67,7 +67,7 @@ class Slash_Command_Manager:
             input.data_manager.localizer.lang = input.data_manager.localizer.LANGUAGES.español
             name =input.data_manager.__get_command_in_message__(name).languages['español']
             
-          response = input.get_response(name, interaction.user.display_name ,interaction.user.display_avatar, interaction.guild.name )
+          response = await input.get_response(name, interaction.user.display_name ,interaction.user.display_avatar, interaction.guild.name )
           await interaction.response.send_message(embed=response)
     
     #Basic Moves
@@ -102,7 +102,7 @@ class Slash_Command_Manager:
               command =input.data_manager.__get_command_in_message__(command).languages['español']
 
             command = command + mod
-            response = input.get_response(command, interaction.user.display_name ,interaction.user.display_avatar, interaction.guild.name )
+            response = await input.get_response(command, interaction.user.display_name ,interaction.user.display_avatar, interaction.guild.name )
             await interaction.response.send_message(embed=response)
     
 #Special Moves
@@ -135,7 +135,7 @@ class Slash_Command_Manager:
               command =input.data_manager.__get_command_in_message__(command).languages['español']
              
           command = command + mod
-          response = input.get_response(command, interaction.user.display_name ,interaction.user.display_avatar, interaction.guild.name )
+          response = await input.get_response(command, interaction.user.display_name ,interaction.user.display_avatar, interaction.guild.name )
           await interaction.response.send_message(embed=response)
     
 #Playbooks Moves
@@ -170,5 +170,5 @@ class Slash_Command_Manager:
               command =input.data_manager.__get_command_in_message__(command).languages['español']
 
           command = command + mod
-          response = input.get_response(command, interaction.user.display_name ,interaction.user.display_avatar, interaction.guild.name )
+          response = await input.get_response(command, interaction.user.display_name ,interaction.user.display_avatar, interaction.guild.name )
           await interaction.response.send_message(embed=response)
