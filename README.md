@@ -27,5 +27,4 @@ Supported commands:
 
 [Invite Link](https://discord.com/api/oauth2/authorize?client_id=1023752228005224458&permissions=2147698688&scope=bot)
 
-##Developed on Visual Studio Code and the Python Extension
-Use poetry to set the packages, requirements.txt is only used for the deployment
+## Developed on VSCODE with Python's extension
