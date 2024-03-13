@@ -19,16 +19,16 @@ slash = Slash_Command_Manager(tree, input)
 @client.event
 async def on_ready():
   await tree.set_translator(Discord_Translator(input.data_manager))
-  tree.clear_commands(guild=guild)
-  tree.copy_global_to(guild=guild)
+  #tree.clear_commands(guild=guild)
+  #tree.copy_global_to(guild=guild)
   await  tree.sync()
   await client.change_presence(activity=discord.Activity(type=discord.ActivityType.listening, name='$help $ayuda'))
   game = discord.Game(f"Playing Thirsty Sword Lesbians in {len(client.guilds)} servers!")
   await client.change_presence(status=discord.Status.online, activity=game)
 
   print(f'We have logged in as {client.user} with presence in {len(client.guilds)} servers')
-  for guild in client.guilds:
-    print(guild.name)
+  for server in client.guilds:
+    print(server.name)
 
 
 @client.event
