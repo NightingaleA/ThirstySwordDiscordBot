@@ -1,6 +1,9 @@
 # Thirsty_Sword_Discord_Bot BETA 0.1
 
-An unnoficial bot for playing Thirsty Sword Lesbians
+An unofficial bot for playing Thirsty Sword Lesbians
+
+## STATUS OFFLINE
+(Let me know with the help form that you would like to use it and I'll bring it online. If you would like to help with the server fee, check my ko-fi. Alternatively, feel free to branch and set a new bot with the code as well.)
 
 Listens too:
 - $help 
