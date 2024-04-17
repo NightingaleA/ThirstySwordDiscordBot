@@ -1,0 +1,80 @@
+localization_id,english,español
+name_scoundrel_moment,Living In The Moment,
+name_scoundrel_heat,Heat Of The Moment,
+name_scoundrel_lust,Lust at First Sight,
+name_scoundrel_shiny,Shiny and New,
+name_scoundrel_forgive,Better to Seek Forgiveness,
+name_scoundrel_rush,Fools Rush In,
+name_scoundrel_swordplay,Impressive Swordplay,
+name_scoundrel_attraction,The Main Attraction,
+name_scoundrel_port,One in Every Port,
+name_scoundrel_rrip,Rrrip!,
+trigger_scoundrel_moment,**Why are you so fickle?**,
+trigger_scoundrel_heat,** When you taunt someone into doing something they want to do but find unwise.**,
+trigger_scoundrel_lust,**When you become Smitten with someone you barely know.**,
+trigger_scoundrel_shiny,**When you give or receive Emotional Support in an intimate moment with someone new.** ,
+trigger_scoundrel_forgive,"**When you apologize to someone for your outrageous conduct and put yourself at their mercy,**",
+trigger_scoundrel_rush,"**When you vault into a situation without forethought and wind up way over your head,**",
+trigger_scoundrel_swordplay,**Whenever you roll a 7+ to Fight**,
+trigger_scoundrel_attraction,**When you make a dramatic entrance.**,
+trigger_scoundrel_port,**When you return to any town you’ve been to before.**,
+trigger_scoundrel_rrip,**When you take or narrowly evade a physical blow from someone dangerous to you.**,
+blurb_scoundrel_moment,"Is there something you need to figure out about yourself, and you keep looking for it in other people instead? Are you afraid of the vulnerability that comes from investing in a relationship? Is your true love unattainable? Are you just that oblivious?
+
+Choose something that you’ll be able to grow past to give your character an emotional story arc. You don’t need to figure it out immediately, and the Scoundrel themself may not know at all.",
+blurb_scoundrel_heat,"__roll +Daring:__
+If the target is an NPC:
+**10+:**They’ll do it in exchange for a small concession or reassurance
+**7–9:**They choose 1
+
+**•** Create an opportunity for you or your allies
+**•** They give you a String on them
+
+If the target is a PC:
+**10+:**They mark XP if they do it, and must take a Condition if they don’t
+**7–9:**You choose 1
+
+**•** They mark XP if they do it
+**•**They take a Condition if they don’t
+
+For either a PC or an NPC, if you aren’t already Smitten with them, you may choose to treat __a 7–9 result as a 10+__ by **choosing** to become **Smitten** with the target.",
+blurb_scoundrel_lust,"Declare your undying love and give them a String on you. 
+Lose your Smitten status with anyone who has no Strings on you. 
+Take +1 forward to any act you think mightimpress your new interest.",
+blurb_scoundrel_shiny,"You each mark XP or clear a Condition.
+
+**Emotional Support**
+__roll +Heart or +Spirit__ (+3 more if you spend a String on them):
+**10+:**If they open up to you, they choose 1 and you either choose 1 or take a String on them.
+**7–9:**If they open up to you, they choose 1 a Clear a Condition a Mark XP.
+
+**•** +1 forward.
+**•** Gain insight from the GM about an obstacle facing one of you.",
+blurb_scoundrel_forgive,"__roll +Daring:__
+**10+:** You find out what it will take for them to forgive you and you each gain a String on the other. If they forgive you, you each clear a Condition.
+**7–9:** You find out what it will take for them to forgive you. If you do it, you either take Strings on each other or they may clear a Condition, your choice. ",
+blurb_scoundrel_rush,"Give someone dangerous to you a String, mark XP, and take +1 forward to Defy Disaster.",
+blurb_scoundrel_swordplay,"You may gain a String on someone who is present and ask their player what it is about you that has impressed or intrigued them.
+
+**Fight**
+__Roll +Daring or +Grace:__
+**10+:**Choose 3 and your opponent chooses 1 to apply to you in response.
+ **7–9:**Choose 2 and your opponent chooses 1.
+
+ **•** Flirt with or provoke your opponent and gain a String on them.
+ **•** Through violence or cutting words, inflict a Condition.
+ **•** Create an opportunity for an ally through prowess or distraction.
+ **•** Take an object from your opponent or seize a superior position.",
+blurb_scoundrel_attraction,"__roll +Grace:__
+**10+:** Choose 2
+**7–9:** Choose 1
+
+**•** All attention is focused on you for a moment
+**•** You hold the attention of one person for as long as you deliver a dramatic speech
+**•**  Take a String on someone present
+**•**You take +1 forward",
+blurb_scoundrel_port,"Name a person with whom you shared intimacy here and say how you left things. 
+If you left on bad terms, mark XP and the GM will tell you something interesting that has changed since you were last here.",
+blurb_scoundrel_rrip,"You may declare that your clothes were damaged and are now practically indecent. 
+For the remainder of the scene, when you __roll a 10+__ on any move against an NPC, you may declare that they have a crush on you (up to one NPC per roll and subject to GM discretion). 
+Additionally, any PC who becomes **Smitten** with you during the remainder of the scene may mark XP.",

@@ -1,0 +1,54 @@
+localization_id,english,español
+name_spooky_unseen,The Unseen,
+name_spooky_commune,Commune With The Unseen,
+name_spooky_snails,I Like Snails!,
+name_spooky_dance,Astral Dance,
+name_spooky_divination,Divination,
+name_spooky_dreamwalk,Dreamwalk,
+name_spooky_companion,Eerie Companion,
+name_spooky_places,Friends in Weird Places,
+name_spooky_nerdy,Talk Nerdy to Me,
+name_spooky_witch,Witchfire,
+trigger_spooky_unseen,**The Unseen are mysterious beings most cannot perceive.**,
+trigger_spooky_commune,**When you perform a ritual to commune with the Unseen.**,
+trigger_spooky_snails,**When you are Smitten with someone and Figure Them Out**,
+trigger_spooky_dance,**When you dance across the boundary into the realm beyond**,
+trigger_spooky_divination,**When you have time and safety to read the unseen truth of someone present**,
+trigger_spooky_dreamwalk,"**When you touch an unconscious, sleeping, or willing subject**",
+trigger_spooky_companion,**You have a little pet monster or spirit**,
+trigger_spooky_places,**You are friends with some odd people. When you call on them for help**,
+trigger_spooky_nerdy,**When you Entice someone**,
+trigger_spooky_witch,**When you Fight conspicuously**,
+blurb_spooky_unseen,"Their very existence may be debated, but you know the truth, because they have spoken to you. You know that some are kind and some are dangerous, that they have abilities and limitations that differ from “normal” people, and that you find yourself in between.
+
+Work with your GM to define what the Unseen are—or what your Spooky Witch thinks they are. They could be friendly spirits, phase-shifted aliens, psychic remnants,glitched-out nanites, angry poltergeists, or something totally other. When did you first interact with them? What do you think they want?",
+blurb_spooky_commune,"give a dangerous Unseen a String on you and __roll +Spirit:__
+**10+:** Choose 2
+
+**•** Hide something in the Unseen world
+**•** Learn something important from the Unseen
+**•** Temporarily alter the Unseen nature of a place
+**•** Ask a question from Figure Out a Person of anyone, anywhere, if you can name one of their deceased loved ones
+**•** Learn the recent history of an object you hold
+
+**7–9:**Choose 2 from the 10+ list, but choose 1 thing that goes awry
+
+**•** Restless Unseen cause a haunting
+**•** Hungry Unseen destroy all non-sentient life in a small area
+**•** Stern Unseen judge you, inflicting a Condition",
+blurb_spooky_snails,"blurt out something weird and let them ask you a question from the list. Then ask them another question from the list, even on a 6-.",
+blurb_spooky_dance,"describe it and roll __+Grace:__
+
+**10+:** You and a small number of others who dance with you arrive at a distant destination of your choice.
+**7–9:** You don’t arrive where you intend, you arrive almost too late, or you lose something important in the process. The GM will tell you which.",
+blurb_spooky_divination,"describe your divination process and what makes it conspicuous. The GM will tell you something interesting about the person or the obstacles they face that they don't know. Then roll __+Spirit:__
+
+**10+:** If you tell the truth, they clear a Condition. If you lie, gain a String on them.
+**7–9:** They learn the truth and clear a Condition.",
+blurb_spooky_dreamwalk,you can see an impression of their thoughts and appear in their dreams. You may roll __+Spirit__ to Figure Out or Entice them in this state.,
+blurb_spooky_companion,"Choose two basic moves. The companion grants you +1 to these moves when it assists you, but it's assistance is always obvious and alarming to ordinary people. In addition, you can speak with monsters.",
+blurb_spooky_places,"The GM tells you what they provide. Give them a String on you and mark the Favor next to their name. Whenever significant time passes, one of your friends with marked Favor will need help from you. Clear their Favor if you help, mark a Condition if you don't.",
+blurb_spooky_nerdy,"roll __+Wit__ instead of __+Heart.__
+
+In addition, choose an area of study that holds special interest for you. You have top-tier knowledge of this area and are always prepared with an interesting fact, and sometimes even a useful fact, when you come across something within your expertise. The GM will provide the information or invite you to make something up.",
+blurb_spooky_witch,"you may roll __+Spirit__ instead of __+Daring__ to Fight. Because of the conspicuous nature, the consequences of a 6- will be severe.",

@@ -1,0 +1,58 @@
+localization_id,english,español
+name_sun_destruct,Self Destruct,
+name_sun_baking,Sun Hand Baking,
+name_sun_ground,Common Ground,
+name_sun_friend,Fast Friend,
+name_sun_focus,Hyperfocus,
+name_sun_know,Know-It-All,
+name_sun_defiance,Oppositional Defiance,
+name_sun_reinforcement,Positive Reinforcement,
+trigger_sun_destruct,"**As long as you have seen or read about it before, choose any move from another playbook to have as your current Obsession move.**",
+trigger_sun_baking,"**If you have dough, you can bake it anywhere. You can channel the heat of the sun into your hands. Bake bread by holding the dough and enveloping it in a solar aura.**",
+trigger_sun_ground,**When you gain a String on someone who has your currentObsession move**,
+trigger_sun_friend,"Your need to impress others and be vulnerable with them leads to you being easy to befriend.
+**When meeting someone for the first time, **",
+trigger_sun_focus,"**When you’re focused, you’re focused.**",
+trigger_sun_know,**You always seem to have advice for something.**,
+trigger_sun_defiance,**You defy authority as a reflex.**,
+trigger_sun_reinforcement,**Confirmation that your obsessions are good give you a boost.**,
+blurb_sun_destruct,"**•** You can choose a move from your own playbook, which allows you to discard a String to reroll when doing that move.
+**•** Your Self-Destruct score starts at 0.
+**•** If it hits 4, you lose a String with someone or someone gains
+**•** String on you. Describe how you let this person down, and any side effects of you failing them continually if this isn’t the first time. You lose interest in the obsession and must choose a new move. Then reset your Self-Destruct to 0.
+**•** At any time, you can abandon an obsession for a new one by losing a String on someone you previously impressed, related to your Obsession move or not. Describe how your decision impacts your relationship with the person. 
+
+**Increase Self-Destruct when:**
+**•** You use your Obsession move
+**•** You neglect a relationship
+**•** You roll a down beat when using Sun Hand Baking
+**•** You roll a down beat when using an Obsession move (stacks with the first option)
+
+**Decrease Self-Destruct when:**
+**•** You support a relationship
+**•** You develop a new relationship
+**•** You gain a String on someone you’ve recently impressed with an Obsession move
+**•** You give someone you’ve previously let down Sun Hand bread",
+blurb_sun_baking,"When you do, tell everyone what the aura looks like, and __roll+Daring__ to imbue it with power:
+**10+:** Choose 1
+**7–9:** Choose 1, and you can’t make that bread again this session
+
+**•** Medical Bread: Tastes bitter; name a specific Condition to clear when eaten
+**•** Solar Crust: Stays piping hot for a day or until the crust is broken, and provides the ambient warmth of a small campfire
+**•** Heavy Crumb: Tastes familiar and comforting; become deeply sleepy after eating
+**•** Klo Style: Tastes of the sea; temporarily gain gills for a few hours after eating
+**•** Fortified: Dry in texture; when eaten, take +1 forward to roll with a stat chosen when baked
+**•** Sugar Crust: Soft and fluffy; the scent diminishes feelings of aggression in those that smell it
+**•** Golden Crust: The scent entrances those that smell it, causing them to float towards it; rumored to let you visit the afterlife while entranced
+**•** Breadbane: Name a specific species that is repelled by the scent; it tastes really nice for everyone but those named
+**•** Illuminated Crust: Tastes too sweet; glows and causes those who eat it to glow for a few hours
+**•** Hard Crust: Tastes like a rock; can be used as a makeshift club in a pinch Imbued powers fade from the bread after one day.",
+blurb_sun_ground,"You both choose whether to bond over it. 
+If you do, they gain a String on you and you both clear a Condition.",
+blurb_sun_friend,"You may ask them a question about one of their interests, and you each take a String on the other. If you do something nice with this detail in a future session for that person, they mark XP.",
+blurb_sun_focus,"And when you get in that zone of focus, you learn faster. Once per scene, when you use an Obsession move twice in a row, describe how your understanding of the move has deepened and mark XP.",
+blurb_sun_know,"If you’ve seen someone make a particular move before, you can discard a String on anyone but them to let them reroll that move (once per roll).",
+blurb_sun_defiance,"If someone tells you to do something, even if it's something you wanted to do, your instinct is to not do it. 
+If you directly defy authority, gain a String on that person. 
+If you comply, they gain a String on you.",
+blurb_sun_reinforcement,"When you roll a 10+ using your Obsession move, choose someone present to impress and gain a String on them.",

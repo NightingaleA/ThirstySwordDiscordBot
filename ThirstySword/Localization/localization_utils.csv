@@ -1,0 +1,25 @@
+localization_id,english,español
+notation_explanation,Pending to add,Pendiente de agregar
+missing_command,"This command is missing, I hope to add it soon, thank you for the patience.","Este command aún no está disponible, espero agregarlo pronto, gracias por la paciencia."
+asking_for,Is asking for: ,Está preguntando por: 
+triggered,Triggered: ,Activo: 
+rolled,Rolled: ,Tiró: 
+moves,Moves,Movimientos
+ups,"Oof, something went wrong. Maybe a typo? If not, that's my bad :v
+You can use this form to let me know about the error:
+
+https://forms.gle/nM5vgj1vWanFHpm59","Oof, algo salio mal. ¿Quizás un typo? Si no, es mi culpa :v
+Usa google form es para reportar errores:
+
+https://forms.gle/nM5vgj1vWanFHpm59"
+ups_title,Oops!,¡Uy!
+empty_title,Missing From Database,No Existe en la Base de Datos
+empty_blurb,"Haven't gotten to adding it, sorry. 
+Want to help?
+Check this google form:
+
+https://forms.gle/nM5vgj1vWanFHpm59","Lo siento, aun no agrego el movimiento.
+¿Quiere ayudar?
+Checa este google form:
+
+https://forms.gle/nM5vgj1vWanFHpm59"

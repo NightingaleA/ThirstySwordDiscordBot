@@ -1,0 +1,81 @@
+localization_id,english,español
+name_bladesoul_synchro,Synchronicity,
+name_bladesoul_as_one,We Fight As One,
+name_bladesoul_dont_give_up,Don’t Give Up!,
+name_bladesoul_sword_protects,"The Sword that Protects
+",
+name_bladesoul_look_good,"Make Them Look Good
+",
+name_bladesoul_beat_together,Our Hearts Beat Together,
+name_bladesoul_begets_pain,Pain Begets Pain,
+name_bladesoul_clashing_souls,"Clashing Souls
+",
+name_bladesoul_the_edge,On The Edge,
+trigger_bladesoul_synchro,**You can spend 5 points of Synchronicity to unleash a mighty Finishing Blow.**,
+trigger_bladesoul_as_one,"**While you are in your human form, even your bare hands are as deadly as the sharpest blade.** 
+",
+trigger_bladesoul_dont_give_up,"**Fighting side by side grants you a special insight into your companion’s emotional state.**
+",
+trigger_bladesoul_sword_protects,**You won’t allow anyone or anything to threaten the ones you love.** ,
+trigger_bladesoul_look_good,"**You know how to give an ally the spotlight. When you roll to Entice after doing something impressive,** ",
+trigger_bladesoul_beat_together,**As long as you and another PC are Smitten with each other** ,
+trigger_bladesoul_begets_pain,,
+trigger_bladesoul_clashing_souls,"**When you’re in a physical confrontation, **",
+trigger_bladesoul_the_edge,**When you gain your third String on another PC**,
+blurb_bladesoul_synchro,"__Roll Fight or Defy Disaster,__ and add your wielder’s Daring or Grace to the result in addition to your own. 
+**On a result of 13+** you can perform an otherwise impossible feat of supernatural might or skill. This can be used in either form.
+
+Whenever you use your Finishing Blow, or choose a new wielder, reset your Synchronicity to 0.",
+blurb_bladesoul_as_one,"Whenever you roll a 7+ to Fight, you must choose to inflict a Condition.
+
+**When you seek to incapacitate someone with violence.**
+
+""__Roll +Daring or +Grace:__
+**10+:**Choose 3 and your opponent chooses 1 to apply to you in response.
+ **7–9:**Choose 2 and your opponent chooses 1.
+
+ **•** Flirt with or provoke your opponent and gain a String on them.
+ **•** Through violence or cutting words, inflict a Condition.
+ **•** Create an opportunity for an ally through prowess or distraction.
+ **•** Take an object from your opponent or seize a superior position.""",
+blurb_bladesoul_dont_give_up,"Once per scene, when you roll Emotional Support during a physical confrontation, if the person you’re supporting opens up to you, they clear a Condition even if you roll a 6-. 
+They can clear two Conditions with the same Emotional Support action when you use this move.
+
+**When you offer someone support in a way that could be meaningful to them.**
+""__roll +Heart or +Spirit__ (+3 more if you spend a String on them):
+**10+:**If they open up to you, they choose 1 and you either choose 1 or take a String on them.
+**7–9:**If they open up to you, they choose 1 a Clear a Condition a Mark XP.
+**•** +1 forward.
+**•** Gain insight from the GM about an obstacle facing one of you.""",
+blurb_bladesoul_sword_protects,"Once per session, you may take an excessively destructive action towards a person or things that is causing an ally distress. 
+If the person you’re defending approves of the act, they clear a Condition. 
+If they disapprove of the act, you Stagger.",
+blurb_bladesoul_look_good,"__on a 7+__ you may choose to direct the benefits to another PC as if they had gotten the same result.
+
+**When you appeal to someone’s physical or emotional sensibilities.**
+""__roll +Heart:__
+**10+:**Gain a String on them and they choose 1.
+**7–9:**Gain a String on them, unless they decide instead to choose 1.
+
+**•** Get flustered and awkward.
+**•** Promise something they think you want.
+**•** Give in to desire.""",
+blurb_bladesoul_beat_together,"They always count as your wielder, even when separated. 
+Being shared or handed off between wielders does not reset your Synchronicity to 0. 
+If you are otherwise stolen or lost in your blade form, reset your Synchronicity to 0.",
+blurb_bladesoul_begets_pain,"Your wielder may roll __+Spirit__ instead of +Daring to Fight. 
+If they do so, they must take a Condition immediately after determining the result of the roll. 
+__On a 7+,__ the target of their attack takes the same Condition. 
+
+Your wielder can inflict two Conditions with the same Fight action using this move.
+Additionally, you may add their Spirit to your Finishing Blow instead of their Daring.",
+blurb_bladesoul_clashing_souls,"you can __roll +Heart__ to call out to your opponent and make an impassioned speech about why violence isn’t the answer. 
+**On a 10+** choose 2 of the following. 
+**On a 7-9** choose 1.
+
+**•** Your opponent’s resolve falters, give an ally +1 forward to deescalate the confrontation
+**•** Your opponent questions their actions, inflict a Condition
+**•** Your opponent reveals a personal truth, gain a String on them and increase your Synchronicity by 1.",
+blurb_bladesoul_the_edge,"you may immediately confess a strong, personal feeling that relates to them and that they were not previously aware of. 
+If they react positively towards your confession, gain an additional String on them at the end of the scene. 
+If they react poorly, take a Condition.",
