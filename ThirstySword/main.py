@@ -6,12 +6,14 @@ from Managers.slash_command_manager import Slash_Command_Manager
 from Localization.localizer import Discord_Translator
 
 TOKEN = os.getenv('DISCORD_TOKEN')
+TESTING_GUIld = os.getenv('TESTING_GUILD')
+
 intents = discord.Intents.default()
 intents.message_content = True
 
 client = discord.Client(command_prefix='$', intents=intents)
 tree = app_commands.CommandTree(client)
-guild = discord.Object(id=725129870174322688)
+guild = discord.Object(id=TESTING_GUIld)
 
 input = input_handler(client)
 slash = Slash_Command_Manager(tree, input)
