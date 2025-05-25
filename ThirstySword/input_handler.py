@@ -1,7 +1,9 @@
 import discord
 import datetime
+import logging
 from Managers.data_manager import DataManager
 
+logger = logging.getLogger(" THIRSTY-SWORD ")
 
 class input_handler:
 
@@ -10,10 +12,10 @@ class input_handler:
     self.client = client
 
   async def get_response(self, message_content,display_name,  display_avatar, server_name):
-    print(f'Server: {server_name}')
+    logger.info(f'Server: {server_name}')
     now = datetime.datetime.now()
-    print(now.strftime("%Y-%m-%d %H:%M:%S"))
-    print(f'With presence in {len(self.client.guilds)} servers')
+    logger.info(now.strftime("%Y-%m-%d %H:%M:%S"))
+    logger.info(f'With presence in {len(self.client.guilds)} servers')
     game = discord.Game(f"Playing Thirsty Sword Lesbians in {len(self.client.guilds)} servers!")
     await self.client.change_presence(status=discord.Status.online, activity=game)
     

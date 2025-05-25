@@ -1,9 +1,11 @@
 import pandas as pd
 from discord import app_commands
 import discord
+import logging
 from enum import Enum
 import os
 
+logger = logging.getLogger(" THIRSTY-SWORD ")
 
 class Localizer:
   LANGUAGES = Enum('LANGUAGES', 'none english español')
@@ -96,11 +98,11 @@ class Discord_Translator(app_commands.Translator):
     self.data_manager = data_manager
 
   async def load(self):
-    print("Load")
+    logger.info("Load")
     # this gets called when the translator first gets loaded!
 
   async def unload(self):
-    print("Unload")
+    logger.info("Unload")
     # in case you need to switch translators, this gets called when being removed
 
   async def translate(self, string: app_commands.locale_str,

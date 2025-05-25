@@ -1,6 +1,6 @@
 [project]
 name = "thirstysworddiscordbot"
-version = "0.3.0"
+version = "1.0.0"
 description = "Discord bot to play Thirsty Sword Lesbians"
 authors = [
     {name = "Nightingale"}
